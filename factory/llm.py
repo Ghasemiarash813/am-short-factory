@@ -37,12 +37,17 @@ def chat_json(system, user, models, max_tokens=1800, temperature=0.4):
                     last = f"{model} HTTP {r.status_code}: {r.text[:300]}"
                     log(last); USAGE["errors"].append(last[:160])
                     break
-                txt = r.json()["choices"][0]["message"]["content"]
+                try:
+                    txt = r.json()["choices"][0]["message"]["content"] or ""
+                except Exception:  # noqa
+                    last = f"{model} HTTP {r.status_code} non-JSON body: {r.text[:300]!r} ct={r.headers.get('content-type')}"
+                    log(last); USAGE["errors"].append(last[:160])
+                    break
                 txt = re.sub(r"^```(json)?|```$", "", txt.strip()).strip()
                 USAGE["model_used"] = model
                 return json.loads(txt)
             except json.JSONDecodeError as e:
-                last = f"{model} bad JSON: {e}"; log(last)
+                last = f"{model} bad JSON: {e}; text={txt[:200]!r}"; log(last)
                 time.sleep(3)
             except Exception as e:  # noqa
                 last = f"{model} error: {e}"; log(last)
