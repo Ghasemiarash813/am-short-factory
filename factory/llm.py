@@ -1,63 +1,55 @@
-"""GitHub Models (free, keyless inside Actions via GITHUB_TOKEN with permissions: models: read)."""
+"""LLM access. GitHub Models was retired on 30 Jul 2026, so the factory runs its own free model:
+Qwen3-4B-Instruct-2507 (GGUF, Apache-2.0) served by llama.cpp's llama-server on the Actions runner
+(OpenAI-compatible API at http://127.0.0.1:8080). No keys, no secrets.
+Optional: set repo variable LLM_ENDPOINT (+ secret LLM_API_KEY) to use any OpenAI-compatible API instead."""
 import json, os, re, time
 import requests
 
-OWNER = os.environ.get("GITHUB_REPOSITORY_OWNER", "Ghasemiarash813")
-ENDPOINTS = [
-    ("https://models.github.ai/inference/chat/completions", True),
-    (f"https://models.github.ai/orgs/{OWNER}/inference/chat/completions", True),
-    ("https://models.inference.ai.azure.com/chat/completions", False),  # legacy endpoint, bare model names
-]
-USAGE = {"calls": 0, "model_used": None, "errors": []}
+LOCAL = "http://127.0.0.1:8080/v1/chat/completions"
+USAGE = {"calls": 0, "model_used": None, "errors": [], "endpoint": None}
 
 
 def log(*a):
     print("[llm]", *a, flush=True)
 
 
-def chat_json(system, user, models, max_tokens=1800, temperature=0.4):
-    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_MODELS_TOKEN")
-    if not token:
-        raise RuntimeError("No GITHUB_TOKEN for GitHub Models")
+def _endpoints():
+    eps = []
+    if os.environ.get("LLM_ENDPOINT"):
+        eps.append((os.environ["LLM_ENDPOINT"], os.environ.get("LLM_API_KEY", ""), os.environ.get("LLM_MODEL", "gpt-4o-mini")))
+    eps.append((LOCAL, "", "local"))
+    return eps
+
+
+def chat_json(system, user, models=None, max_tokens=1800, temperature=0.4):
     last = None
-    eps = [e for e in ENDPOINTS if e[0] == USAGE.get("endpoint")] or ENDPOINTS
-    combos = [(ep, pre, m) for (ep, pre) in eps for m in models]
-    for ep, pre, model in combos:
-        mname = model if pre else model.split("/", 1)[-1]
-        for attempt in range(4):
+    for ep, key, model in _endpoints():
+        for attempt in range(3):
             try:
-                r = requests.post(ep, timeout=120, headers={
-                    "Authorization": f"Bearer {token}", "Content-Type": "application/json",
-                    "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"},
-                    json={"model": mname, "temperature": temperature, "max_tokens": max_tokens,
-                          "response_format": {"type": "json_object"},
-                          "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]})
+                t0 = time.time()
+                h = {"Content-Type": "application/json"}
+                if key:
+                    h["Authorization"] = f"Bearer {key}"
+                r = requests.post(ep, timeout=1200, headers=h, json={
+                    "model": model, "temperature": temperature, "max_tokens": max_tokens,
+                    "response_format": {"type": "json_object"},
+                    "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]})
                 USAGE["calls"] += 1
                 if r.status_code == 429:
-                    wait = min(int(float(r.headers.get("retry-after", "20"))), 90)
-                    log(f"{model} rate-limited, waiting {wait}s; body: {r.text[:200]}")
-                    USAGE["errors"].append(f"{model} 429")
-                    if wait >= 90 and attempt >= 1:
-                        break
-                    time.sleep(wait)
-                    continue
+                    time.sleep(min(int(float(r.headers.get("retry-after", "20"))), 90)); continue
                 if r.status_code >= 400:
-                    last = f"{ep} {model} HTTP {r.status_code}: {r.text[:300]}"
-                    log(last); USAGE["errors"].append(last[:160])
-                    break
-                try:
-                    txt = r.json()["choices"][0]["message"]["content"] or ""
-                except Exception:  # noqa
-                    last = f"{ep} {model} HTTP {r.status_code} non-JSON body: {r.text[:300]!r} ct={r.headers.get('content-type')}"
-                    log(last); USAGE["errors"].append(last[:160])
-                    break
-                txt = re.sub(r"^```(json)?|```$", "", txt.strip()).strip()
-                USAGE["model_used"] = model; USAGE["endpoint"] = ep
-                return json.loads(txt)
+                    last = f"{ep} HTTP {r.status_code}: {r.text[:300]}"; log(last); USAGE["errors"].append(last[:160]); break
+                j = r.json()
+                txt = (j["choices"][0]["message"].get("content") or "").strip()
+                txt = re.sub(r"^```(json)?|```$", "", txt).strip()
+                m = re.search(r"\{.*\}", txt, re.S)
+                out = json.loads(m.group(0) if m else txt)
+                u = j.get("usage", {})
+                log(f"{model} ok in {time.time()-t0:.0f}s, tokens in/out {u.get('prompt_tokens')}/{u.get('completion_tokens')}")
+                USAGE["model_used"] = j.get("model") or model; USAGE["endpoint"] = ep
+                return out
             except json.JSONDecodeError as e:
-                last = f"{model} bad JSON: {e}; text={txt[:200]!r}"; log(last)
-                time.sleep(3)
+                last = f"{model} bad JSON: {e}"; log(last, txt[:200])
             except Exception as e:  # noqa
-                last = f"{model} error: {e}"; log(last)
-                time.sleep(5)
-    raise RuntimeError(f"All models failed. Last: {last}")
+                last = f"{model} error: {e}"; log(last); time.sleep(5)
+    raise RuntimeError(f"LLM failed. Last: {last}")

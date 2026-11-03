@@ -1,37 +1,130 @@
 {
-  "channel": "Ancient Machines",
-  "models": ["openai/gpt-4.1-mini", "openai/gpt-4o-mini", "openai/gpt-4.1-nano"],
-  "window_hours": 48,
-  "fallback_window_hours": 72,
-  "keep_releases": 14,
-  "feeds": [
-    {"name": "Live Science", "url": "https://www.livescience.com/feeds/tag/archaeology", "tier": 1},
-    {"name": "Live Science", "url": "https://www.livescience.com/feeds/tag/ancient-egypt", "tier": 1},
-    {"name": "Smithsonian", "url": "https://www.smithsonianmag.com/rss/history/", "tier": 1},
-    {"name": "Smithsonian", "url": "https://www.smithsonianmag.com/rss/latest_articles/", "tier": 1},
-    {"name": "Phys.org", "url": "https://phys.org/rss-feed/science-news/archaeology-fossils/", "tier": 1},
-    {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/fossils_ruins/ancient_civilizations.xml", "tier": 1},
-    {"name": "Archaeology Magazine", "url": "https://archaeology.org/feed/", "tier": 1},
-    {"name": "Heritage Daily", "url": "https://www.heritagedaily.com/feed", "tier": 2},
-    {"name": "Arkeonews", "url": "https://arkeonews.net/feed/", "tier": 2},
-    {"name": "Google News", "url": "https://news.google.com/rss/search?q=archaeologists+discovered+when:2d&hl=en-US&gl=US&ceid=US:en", "tier": 2},
-    {"name": "Google News", "url": "https://news.google.com/rss/search?q=ancient+Egypt+discovery+when:2d&hl=en-US&gl=US&ceid=US:en", "tier": 2},
-    {"name": "Google News", "url": "https://news.google.com/rss/search?q=%22ancient%22+%28mechanism+OR+technology+OR+tomb+OR+pyramid%29+discovered+when:2d&hl=en-US&gl=US&ceid=US:en", "tier": 2},
-    {"name": "Google News", "url": "https://news.google.com/rss/search?q=site:arkeonews.net+when:2d&hl=en-US&gl=US&ceid=US:en", "tier": 2},
-    {"name": "Google News", "url": "https://news.google.com/rss/search?q=site:heritagedaily.com+when:2d&hl=en-US&gl=US&ceid=US:en", "tier": 2}
-  ],
-  "related_longs": [
-    {"id": "MPYdONlD6A4", "title": "The Bronze Ring Nobody Can Explain", "topics": "bronze artifacts, Thracian, Greek and Roman objects, unexplained metal objects, mechanisms, ancient tech (newest long, default)"},
-    {"id": "X8newfre5Ds", "title": "This 2,000-Year-Old Computer Shouldn't Exist", "topics": "Antikythera mechanism, gears, ancient computers, shipwrecks with tech, Greek science"},
-    {"id": "0oxRyjMgIBU", "title": "A Robot Found a Door Inside the Great Pyramid", "topics": "Great Pyramid, hidden chambers, doors, scans, robots and muons inside monuments"},
-    {"id": "BDB2DcM3w14", "title": "Filippo Biondi's Pyramid Scan: Aliens or Science?", "topics": "Egypt, Giza, Saqqara, tombs, pharaohs, Egyptian discoveries, underground structures"},
-    {"id": "BfBOHKLFXa8", "title": "2,000-Year-Old Nazca Lines: Alien Runways or Ritual Paths?", "topics": "Nazca, geoglyphs, Peru, South America, Andes, lines seen from the air, AI-found geoglyphs"},
-    {"id": "wFKi87528Rc", "title": "Orion's Belt Pyramids: The Problem Nobody Mentions", "topics": "ancient astronomy, stars, solstice alignments, observatories, calendars, sky"}
-  ],
-  "already_covered": [
-    "Red paint behind sealed pyramid door", "Thracian bronze mechanism", "Saqqara tomb bronze medical tools", "Weni tomb Saqqara statues",
-    "Sabu lost tomb Saqqara", "Haniwa shrine maiden Japan", "Oued Beht Morocco 4000-year-old", "Kekova oldest shipwreck",
-    "Buto Egypt buried complex from space", "Roman child's sarcophagus Tomis Constanta toys", "Thracian golden city 2500 years",
-    "Lycurgus cup recreated", "Mexico 2500-year-old solar observatory", "Underground city Giza paper retracted", "Alexandria lighthouse ring"
-  ]
+ "channel": "Ancient Machines",
+ "models": [
+  "Qwen3-4B-Instruct-2507 Q4_K_M via llama.cpp (local, free)"
+ ],
+ "window_hours": 48,
+ "fallback_window_hours": 72,
+ "keep_releases": 14,
+ "feeds": [
+  {
+   "name": "Live Science",
+   "url": "https://www.livescience.com/feeds/tag/archaeology",
+   "tier": 1
+  },
+  {
+   "name": "Live Science",
+   "url": "https://www.livescience.com/feeds/tag/ancient-egypt",
+   "tier": 1
+  },
+  {
+   "name": "Smithsonian",
+   "url": "https://www.smithsonianmag.com/rss/history/",
+   "tier": 1
+  },
+  {
+   "name": "Smithsonian",
+   "url": "https://www.smithsonianmag.com/rss/latest_articles/",
+   "tier": 1
+  },
+  {
+   "name": "Phys.org",
+   "url": "https://phys.org/rss-feed/science-news/archaeology-fossils/",
+   "tier": 1
+  },
+  {
+   "name": "ScienceDaily",
+   "url": "https://www.sciencedaily.com/rss/fossils_ruins/ancient_civilizations.xml",
+   "tier": 1
+  },
+  {
+   "name": "Archaeology Magazine",
+   "url": "https://archaeology.org/feed/",
+   "tier": 1
+  },
+  {
+   "name": "Heritage Daily",
+   "url": "https://www.heritagedaily.com/feed",
+   "tier": 2
+  },
+  {
+   "name": "Arkeonews",
+   "url": "https://arkeonews.net/feed/",
+   "tier": 2
+  },
+  {
+   "name": "Google News",
+   "url": "https://news.google.com/rss/search?q=archaeologists+discovered+when:2d&hl=en-US&gl=US&ceid=US:en",
+   "tier": 2
+  },
+  {
+   "name": "Google News",
+   "url": "https://news.google.com/rss/search?q=ancient+Egypt+discovery+when:2d&hl=en-US&gl=US&ceid=US:en",
+   "tier": 2
+  },
+  {
+   "name": "Google News",
+   "url": "https://news.google.com/rss/search?q=%22ancient%22+%28mechanism+OR+technology+OR+tomb+OR+pyramid%29+discovered+when:2d&hl=en-US&gl=US&ceid=US:en",
+   "tier": 2
+  },
+  {
+   "name": "Google News",
+   "url": "https://news.google.com/rss/search?q=site:arkeonews.net+when:2d&hl=en-US&gl=US&ceid=US:en",
+   "tier": 2
+  },
+  {
+   "name": "Google News",
+   "url": "https://news.google.com/rss/search?q=site:heritagedaily.com+when:2d&hl=en-US&gl=US&ceid=US:en",
+   "tier": 2
+  }
+ ],
+ "related_longs": [
+  {
+   "id": "MPYdONlD6A4",
+   "title": "The Bronze Ring Nobody Can Explain",
+   "topics": "bronze artifacts, Thracian, Greek and Roman objects, unexplained metal objects, mechanisms, ancient tech (newest long, default)"
+  },
+  {
+   "id": "X8newfre5Ds",
+   "title": "This 2,000-Year-Old Computer Shouldn't Exist",
+   "topics": "Antikythera mechanism, gears, ancient computers, shipwrecks with tech, Greek science"
+  },
+  {
+   "id": "0oxRyjMgIBU",
+   "title": "A Robot Found a Door Inside the Great Pyramid",
+   "topics": "Great Pyramid, hidden chambers, doors, scans, robots and muons inside monuments"
+  },
+  {
+   "id": "BDB2DcM3w14",
+   "title": "Filippo Biondi's Pyramid Scan: Aliens or Science?",
+   "topics": "Egypt, Giza, Saqqara, tombs, pharaohs, Egyptian discoveries, underground structures"
+  },
+  {
+   "id": "BfBOHKLFXa8",
+   "title": "2,000-Year-Old Nazca Lines: Alien Runways or Ritual Paths?",
+   "topics": "Nazca, geoglyphs, Peru, South America, Andes, lines seen from the air, AI-found geoglyphs"
+  },
+  {
+   "id": "wFKi87528Rc",
+   "title": "Orion's Belt Pyramids: The Problem Nobody Mentions",
+   "topics": "ancient astronomy, stars, solstice alignments, observatories, calendars, sky"
+  }
+ ],
+ "already_covered": [
+  "Red paint behind sealed pyramid door",
+  "Thracian bronze mechanism",
+  "Saqqara tomb bronze medical tools",
+  "Weni tomb Saqqara statues",
+  "Sabu lost tomb Saqqara",
+  "Haniwa shrine maiden Japan",
+  "Oued Beht Morocco 4000-year-old",
+  "Kekova oldest shipwreck",
+  "Buto Egypt buried complex from space",
+  "Roman child's sarcophagus Tomis Constanta toys",
+  "Thracian golden city 2500 years",
+  "Lycurgus cup recreated",
+  "Mexico 2500-year-old solar observatory",
+  "Underground city Giza paper retracted",
+  "Alexandria lighthouse ring"
+ ]
 }

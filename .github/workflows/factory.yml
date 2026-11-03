@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write   # commit docs/, create releases
-  models: read      # GitHub Models (free, keyless)
   pages: write
   id-token: write
 
@@ -52,6 +51,34 @@ jobs:
           curl -sSL -o models/voices-v1.0.bin https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
           ls -la models
 
+      - name: Cache local LLM (Qwen3-4B-Instruct-2507 GGUF)
+        id: lcache
+        uses: actions/cache@v4
+        with:
+          path: models/llm
+          key: qwen3-4b-instruct-2507-q4km
+
+      - name: Download local LLM (first run only)
+        if: steps.lcache.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p models/llm
+          curl -sSL --retry 3 -o models/llm/model.gguf https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF/resolve/main/Qwen3-4B-Instruct-2507-Q4_K_M.gguf
+          ls -la models/llm
+
+      - name: Start llama.cpp server
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          B=b12078
+          if ! curl -sSfL -o llama.tgz "https://github.com/ggml-org/llama.cpp/releases/download/$B/llama-$B-bin-ubuntu-x64.tar.gz"; then
+            B=$(gh release view -R ggml-org/llama.cpp --json tagName -q .tagName)
+            curl -sSfL -o llama.tgz "https://github.com/ggml-org/llama.cpp/releases/download/$B/llama-$B-bin-ubuntu-x64.tar.gz"
+          fi
+          mkdir -p llama && tar xzf llama.tgz -C llama --strip-components=1
+          cd llama && LD_LIBRARY_PATH=. nohup ./llama-server -m ../models/llm/model.gguf -c 12288 -np 1 -t $(nproc) --host 127.0.0.1 --port 8080 > ../llama.log 2>&1 &
+          for i in $(seq 1 90); do curl -sf http://127.0.0.1:8080/health >/dev/null && echo "llama-server ready after ${i}s" && exit 0; sleep 2; done
+          tail -50 llama.log; exit 1
+
       - name: Python packages (+ static ffmpeg fallback)
         run: |
           pip install -q -r requirements.txt
@@ -64,8 +91,10 @@ jobs:
       - name: Make today's Short
         id: make
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           KOKORO_DIR: models
+          LLM_ENDPOINT: ${{ vars.LLM_ENDPOINT }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
         run: python factory/run.py
 
       - name: Publish MP4 as a Release (keep last 14)

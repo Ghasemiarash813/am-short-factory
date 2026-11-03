@@ -40,8 +40,8 @@ Return JSON: {"ok": true|false, "problems": ["..."], "lines": ["line 1 text", "l
 
 def rank(cands, covered, models):
     lines = []
-    for i, c in enumerate(cands[:60]):
-        lines.append(f'{i}. [{c["source"]}, {c["age_h"]}h ago] {c["title"]} :: {c["summary"][:220]}')
+    for i, c in enumerate(cands[:40]):
+        lines.append(f'{i}. [{c["source"]}, {c["age_h"]}h ago] {c["title"]} :: {c["summary"][:150]}')
     user = "Already covered (do not pick the same story):\n- " + "\n- ".join(covered[-40:]) + "\n\nCandidates:\n" + "\n".join(lines)
     res = chat_json(RANK_SYS, user, models, max_tokens=900, temperature=0.2)
     out = []
@@ -59,10 +59,10 @@ def rank(cands, covered, models):
 def write_script(story, article, longs, models):
     longs_txt = "\n".join(f'- {l["id"]}: "{l["title"]}" (topics: {l["topics"]})' for l in longs)
     user = (f"Source: {story['source']} | published {story['published']} | URL: {article['url']}\n"
-            f"Headline: {story['title']}\n\nRelated long-form videos:\n{longs_txt}\n\nARTICLE TEXT:\n{article['text'][:11000]}")
+            f"Headline: {story['title']}\n\nRelated long-form videos:\n{longs_txt}\n\nARTICLE TEXT:\n{article['text'][:9000]}")
     return chat_json(SCRIPT_SYS, user, models, max_tokens=2200, temperature=0.5)
 
 
 def fact_check(article, lines, models):
-    user = "ARTICLE:\n" + article["text"][:11000] + "\n\nNARRATION LINES:\n" + json.dumps([l["text"] for l in lines], ensure_ascii=False)
+    user = "ARTICLE:\n" + article["text"][:9000] + "\n\nNARRATION LINES:\n" + json.dumps([l["text"] for l in lines], ensure_ascii=False)
     return chat_json(CHECK_SYS, user, models, max_tokens=1500, temperature=0.0)
