@@ -2,7 +2,12 @@
 import json, os, re, time
 import requests
 
-ENDPOINT = "https://models.github.ai/inference/chat/completions"
+OWNER = os.environ.get("GITHUB_REPOSITORY_OWNER", "Ghasemiarash813")
+ENDPOINTS = [
+    ("https://models.github.ai/inference/chat/completions", True),
+    (f"https://models.github.ai/orgs/{OWNER}/inference/chat/completions", True),
+    ("https://models.inference.ai.azure.com/chat/completions", False),  # legacy endpoint, bare model names
+]
 USAGE = {"calls": 0, "model_used": None, "errors": []}
 
 
@@ -15,13 +20,16 @@ def chat_json(system, user, models, max_tokens=1800, temperature=0.4):
     if not token:
         raise RuntimeError("No GITHUB_TOKEN for GitHub Models")
     last = None
-    for model in models:
+    eps = [e for e in ENDPOINTS if e[0] == USAGE.get("endpoint")] or ENDPOINTS
+    combos = [(ep, pre, m) for (ep, pre) in eps for m in models]
+    for ep, pre, model in combos:
+        mname = model if pre else model.split("/", 1)[-1]
         for attempt in range(4):
             try:
-                r = requests.post(ENDPOINT, timeout=120, headers={
+                r = requests.post(ep, timeout=120, headers={
                     "Authorization": f"Bearer {token}", "Content-Type": "application/json",
-                    "Accept": "application/json"},
-                    json={"model": model, "temperature": temperature, "max_tokens": max_tokens,
+                    "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"},
+                    json={"model": mname, "temperature": temperature, "max_tokens": max_tokens,
                           "response_format": {"type": "json_object"},
                           "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]})
                 USAGE["calls"] += 1
@@ -34,17 +42,17 @@ def chat_json(system, user, models, max_tokens=1800, temperature=0.4):
                     time.sleep(wait)
                     continue
                 if r.status_code >= 400:
-                    last = f"{model} HTTP {r.status_code}: {r.text[:300]}"
+                    last = f"{ep} {model} HTTP {r.status_code}: {r.text[:300]}"
                     log(last); USAGE["errors"].append(last[:160])
                     break
                 try:
                     txt = r.json()["choices"][0]["message"]["content"] or ""
                 except Exception:  # noqa
-                    last = f"{model} HTTP {r.status_code} non-JSON body: {r.text[:300]!r} ct={r.headers.get('content-type')}"
+                    last = f"{ep} {model} HTTP {r.status_code} non-JSON body: {r.text[:300]!r} ct={r.headers.get('content-type')}"
                     log(last); USAGE["errors"].append(last[:160])
                     break
                 txt = re.sub(r"^```(json)?|```$", "", txt.strip()).strip()
-                USAGE["model_used"] = model
+                USAGE["model_used"] = model; USAGE["endpoint"] = ep
                 return json.loads(txt)
             except json.JSONDecodeError as e:
                 last = f"{model} bad JSON: {e}; text={txt[:200]!r}"; log(last)
