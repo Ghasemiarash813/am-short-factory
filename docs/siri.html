@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>دستیار صوتی سیری · Ancient Machines</title>
+<meta name="theme-color" content="#140b2e">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
+<style>
+:root{--line:rgba(255,255,255,.22);--txt:#f5f3ff;--muted:#c9c3e6;--gold:#ffd640}
+*{box-sizing:border-box}
+html,body{margin:0;font-family:Vazirmatn,system-ui,sans-serif;color:var(--txt);background:#120a2a}
+body{padding:max(18px,env(safe-area-inset-top)) 14px 40px;overflow-x:hidden;line-height:1.8}
+.blob{position:fixed;border-radius:50%;filter:blur(60px);opacity:.7;z-index:-1}
+.b1{width:340px;height:340px;background:#7c3aed;top:-80px;left:-90px}
+.b2{width:300px;height:300px;background:#06b6d4;top:45%;right:-120px}
+.b3{width:280px;height:280px;background:#f59e0b;bottom:-90px;left:10%}
+.wrap{max-width:720px;margin:0 auto}
+.card{background:linear-gradient(135deg,rgba(255,255,255,.16),rgba(255,255,255,.05));border:1px solid var(--line);border-radius:26px;padding:18px;margin:14px 0;
+ backdrop-filter:blur(22px) saturate(160%);-webkit-backdrop-filter:blur(22px) saturate(160%);box-shadow:0 10px 40px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.35)}
+h1{font-size:22px;margin:0}h2{font-size:16px;color:var(--gold);margin:0 0 8px}
+.step{display:flex;gap:12px;margin:12px 0;align-items:flex-start}
+.n{flex:0 0 34px;height:34px;border-radius:12px;background:linear-gradient(135deg,#ffd640,#f59e0b);color:#1b1030;font-weight:800;display:flex;align-items:center;justify-content:center}
+code,.en{direction:ltr;unicode-bidi:isolate;font-family:-apple-system,system-ui,sans-serif;background:rgba(0,0,0,.3);padding:1px 7px;border-radius:7px;font-size:14px;white-space:nowrap}
+.url{display:block;white-space:normal;word-break:break-all;padding:8px 10px;margin-top:6px}
+.btn{appearance:none;border:1px solid rgba(255,255,255,.35);background:linear-gradient(135deg,rgba(255,255,255,.28),rgba(255,255,255,.08));color:#fff;padding:9px 14px;border-radius:14px;font:inherit;font-weight:700;font-size:13px;text-decoration:none;display:inline-block;margin-top:6px}
+.small{color:var(--muted);font-size:13px}
+.warn{border-color:rgba(245,158,11,.7)}
+</style>
+</head>
+<body>
+<div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+<div class="wrap">
+<div class="card"><h1>🗣️ دستیار صوتی «Ancient idea»</h1>
+<div class="small">با گفتن «Hey Siri, Ancient idea» آیفون عنوان و هوک شورتِ امروز را می‌خواند، روی صفحه نشان می‌دهد و صفحهٔ کارخانه را باز می‌کند. یک بار ساختنش حدود ۵ دقیقه طول می‌کشد.</div>
+<a class="btn" href="./">⬅️ بازگشت به شورت امروز</a></div>
+
+<div class="card warn"><h2>⚠️ نکتهٔ مهم دربارهٔ «ایده امروز»</h2>
+سیری زبان فارسی را پشتیبانی نمی‌کند، پس جملهٔ صوتی فارسی «ایده امروز» را نمی‌فهمد. راه‌حل: فرمان صوتی انگلیسی <span class="en">Ancient idea</span> را بساز، و برای فارسی یک کپی با نام «ایده امروز» بساز که با <b>دکمهٔ Action</b> آیفون ۱۶ پرو مکس، آیکون روی صفحهٔ اصلی یا ویجت اجرا شود (مرحلهٔ ۱۲ تا ۱۴).</div>
+
+<div class="card"><h2>🛠️ ساخت شورتکات (منوی آیفون انگلیسی)</h2>
+<div class="step"><div class="n">۱</div><div>برنامهٔ <b>Shortcuts</b> را باز کن، تب <span class="en">Shortcuts</span> ← دکمهٔ <span class="en">+</span> بالا سمت راست.</div></div>
+<div class="step"><div class="n">۲</div><div>بالای صفحه روی اسم شورتکات بزن ← <span class="en">Rename</span> ← بنویس <span class="en">Ancient idea</span> (همین اسم، فرمان سیری است).</div></div>
+<div class="step"><div class="n">۳</div><div>روی <span class="en">Add Action</span> بزن، در جست‌وجو بنویس <span class="en">URL</span> و اکشن <b class="en">URL</b> را اضافه کن. در آن این آدرس را بگذار:
+<code class="url">https://ghasemiarash813.github.io/am-short-factory/today.json</code></div></div>
+<div class="step"><div class="n">۴</div><div>اکشن <b class="en">Get Contents of URL</b> را اضافه کن (تنظیماتش را دست نزن؛ Method همان <span class="en">GET</span>).</div></div>
+<div class="step"><div class="n">۵</div><div>اکشن <b class="en">Get Dictionary from Input</b> را اضافه کن.</div></div>
+<div class="step"><div class="n">۶</div><div>اکشن <b class="en">Get Dictionary Value</b> را اضافه کن. روی <span class="en">Key</span> بزن و بنویس <span class="en">short.title</span> . مطمئن شو جملهٔ آن این است: <span class="en">Get Value for short.title in Dictionary</span>.</div></div>
+<div class="step"><div class="n">۷</div><div>یک <b class="en">Get Dictionary Value</b> دیگر اضافه کن. Key را بنویس <span class="en">short.hook</span> . روی کلمهٔ آبی آخر (<span class="en">Dictionary Value</span>) بزن ← <span class="en">Select Variable</span> ← خروجی مرحلهٔ ۵ یعنی <b class="en">Dictionary</b> را انتخاب کن.</div></div>
+<div class="step"><div class="n">۸</div><div>اکشن <b class="en">Text</b> را اضافه کن و داخلش بنویس:
+<code class="url">Today's Short: [عنوان]. Hook: [هوک]</code>
+به‌جای <b>[عنوان]</b> از نوار بالای کیبورد متغیر <span class="en">Dictionary Value</span> مرحلهٔ ۶ را بگذار و به‌جای <b>[هوک]</b> متغیر <span class="en">Dictionary Value</span> مرحلهٔ ۷ را (برای اطمینان: روی متغیر بزن ← <span class="en">Select Variable</span>).</div></div>
+<div class="step"><div class="n">۹</div><div>اکشن <b class="en">Speak Text</b> را اضافه کن (ورودی‌اش خودکار <span class="en">Text</span> است). با فلش کوچک ‹ آن، <span class="en">Language</span> را <span class="en">English (US)</span> بگذار.</div></div>
+<div class="step"><div class="n">۱۰</div><div>اکشن <b class="en">Show Result</b> را اضافه کن و ورودی‌اش را متغیر <span class="en">Text</span> (مرحلهٔ ۸) بگذار.</div></div>
+<div class="step"><div class="n">۱۱</div><div>اکشن <b class="en">Open URLs</b> را اضافه کن و آدرس را بنویس:
+<code class="url">https://ghasemiarash813.github.io/am-short-factory/</code>
+سپس <span class="en">Done</span>. حالا بگو: <b>«Hey Siri, Ancient idea»</b> ✅</div></div>
+</div>
+
+<div class="card"><h2>🇮🇷 نسخهٔ فارسی «ایده امروز» (بدون صدا)</h2>
+<div class="step"><div class="n">۱۲</div><div>روی شورتکات <span class="en">Ancient idea</span> انگشت را نگه دار ← <span class="en">Duplicate</span> ← نسخهٔ جدید را <span class="en">Rename</span> کن به <b>ایده امروز</b>.</div></div>
+<div class="step"><div class="n">۱۳</div><div><b>دکمهٔ Action:</b> <span class="en">Settings</span> ← <span class="en">Action Button</span> ← بکش تا <span class="en">Shortcut</span> ← <span class="en">Choose a Shortcut</span> ← «ایده امروز». حالا با نگه داشتن دکمهٔ کنار گوشی اجرا می‌شود.</div></div>
+<div class="step"><div class="n">۱۴</div><div><b>آیکون صفحهٔ اصلی:</b> داخل شورتکات، دکمهٔ <span class="en">ⓘ</span> یا منوی اشتراک پایین ← <span class="en">Add to Home Screen</span> ← <span class="en">Add</span>.</div></div>
+</div>
+
+<div class="card"><h2>🧩 اگر کار نکرد</h2>
+• اگر سیری گفت «there's a problem»: یک بار شورتکات را دستی اجرا کن و به <span class="en">Allow</span> برای دسترسی به سایت جواب بده.<br>
+• روزهایی که خبر تازه نبوده یا ساخت خطا داده، عنوان خالی است؛ صفحه باز می‌شود و پیام را نشان می‌دهد.<br>
+• برای اینکه سیری فارسی بخواند لازم نیست؛ عنوان شورت انگلیسی است.<br>
+<span class="small">دادهٔ امروز: <a href="today.json" style="color:#a5f3fc">today.json</a></span></div>
+</div>
+</body>
+</html>
