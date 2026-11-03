@@ -1,1 +1,13 @@
-{"status":"no_story","message":"اولین اجرا در حال انجام است…","generated_at_tehran":"","candidates":[],"short":null,"archive":[]}
+{
+ "date": "2026-11-04",
+ "generated_at_utc": "2026-11-03 21:35 UTC",
+ "generated_at_tehran": "2026-11-04 01:05",
+ "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/41722929260",
+ "status": "error",
+ "message": "RuntimeError: All models failed. Last: openai/gpt-4.1-nano bad JSON: Expecting value: line 1 column 1 (char 0)",
+ "candidates": [],
+ "short": null,
+ "archive": [],
+ "llm_calls": 12,
+ "llm_errors": []
+}
