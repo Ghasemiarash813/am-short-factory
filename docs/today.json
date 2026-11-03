@@ -1,130 +1,121 @@
 {
  "date": "2026-11-04",
- "generated_at_utc": "2026-11-03 21:57 UTC",
- "generated_at_tehran": "2026-11-04 01:27",
- "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/41726288351",
+ "generated_at_utc": "2026-11-03 22:14 UTC",
+ "generated_at_tehran": "2026-11-04 01:44",
+ "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/41728781436",
  "status": "ok",
  "message": "",
  "candidates": [
-  {
-   "title": "Buried for 2,600 years beneath Nile mud, a massive ancient Egyptian complex was just found — from space",
-   "source": "Live Science",
-   "link": "https://www.livescience.com/archaeology/ancient-egyptians/buried-for-2-600-years-beneath-nile-mud-a-massive-ancient-egyptian-complex-was-just-found-from-space",
-   "published": "2026-11-02 16:52 UTC",
-   "age_h": 29.1,
-   "score": 98,
-   "why": "Space-discovered 2600-year-old Egyptian complex; hidden, shouldn't exist; credible source (Live Science)",
-   "searchable_name": "Buto Egypt ancient complex"
-  },
   {
    "title": "Paw Prints Found in Bricks From Anatolian Bronze Age Building",
    "source": "Archaeology Magazine",
    "link": "https://archaeology.org/news/2026/11/02/paw-prints-found-in-bricks-from-anatolian-bronze-age-building/",
    "published": "2026-11-02 19:00 UTC",
-   "age_h": 27.0,
-   "score": 85,
-   "why": "4000-year-old paw prints in Anatolian bricks; unexpected biological evidence; Archaeology Magazine",
-   "searchable_name": "Paw prints Anatolian Bronze Age building"
+   "age_h": 27.2,
+   "score": 95,
+   "why": "4000-year-old paw prints in Anatolian bricks — unexpected, ancient, visual, and previously unknown",
+   "searchable_name": "Paw prints in Anatolian Bronze Age bricks"
   },
   {
-   "title": "Pyramid discovered in Dalmatia: It is 20 meters tall and took 2,000 years to build",
-   "source": "NewsBar",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWWp3R2dFUWVLa2ZTTlU4VVRVc193TlRpRnk5dzhFXzF4bmpvN3RDazA0Njc0WXhMOVlvT0FmX0gyR1ptWUNjREN0ZEg4X2VaMVFzSWd2WWI5MXZBVjJDTHpaZTYtUy1LbnVoX2N2aE56TjAtVWNRano4NzZybFNlUjdpVFVPZ1h6UEJxSHZsOUVxZkc3eVRVa3lPYmNIZ2xNOGh3TjV3?oc=5",
-   "published": "2026-11-03 15:22 UTC",
-   "age_h": 6.6,
-   "score": 70,
-   "why": "Claimed 20m pyramid in Dalmatia; contradicts known archaeology; unverified; low credibility",
-   "searchable_name": "Pyramid Dalmatia"
+   "title": "Archaeologists Just Discovered Something Shocking About How Neanderthals Lived at Home",
+   "source": "VICE",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRlBWTE1XY2VCbG9uNi1yR0NoaDI0MHY3b0hvVDJ5V09ORVg1WGp4eXIyM0U3dl95MHpCTFI0YW82LVRpZ3JScnN2U3ptS193Ym5NcXVjQnZBeDZ6S0Y2cWc3bHpqUXdKcUwyZUZId1RxaGhFanlha0dEcnZKbExjNzJQRzJoV19iTVFGQm9jSTByM0FJbkJ3TE1EV3Z1djEtSEF1ZjdwUDhaTjQtc1lMTnZsSnlMVXB5Ymlr?oc=5",
+   "published": "2026-11-03 15:02 UTC",
+   "age_h": 7.2,
+   "score": 88,
+   "why": "Neanderthal home living habits revealed — surprising, visual, challenges old assumptions",
+   "searchable_name": "Neanderthal home life discovery"
+  },
+  {
+   "title": "Roman city beneath Italian fields reveals hidden network of sewers and tunnels",
+   "source": "HeritageDaily",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUW9sb0pUTVNKSXo3dWxHZXVPMmV5RE82NXUtWFVNYzJqc01hS1lHbW1GaU5NU2N2c2V0ZGpEaEJUTklxQTNkTXQ2YlJGbjU5TXNEenp3NmtEZGRGOHBBaWYwOTZ1SzBIZnpaNFdEOXhiS3kySDJVbk9UQV9LN3l1aktKSm5HeGN2ZkF6ZTdQb3dqVlJzbl9Tb2RnM2N1bktQNHZMMkplbHVjQnpjNFNybmFsakpOOWM5WWtHMjYwejU?oc=5",
+   "published": "2026-11-03 21:50 UTC",
+   "age_h": 0.4,
+   "score": 82,
+   "why": "Hidden Roman sewer network beneath Italian fields — real, visual, urban ancient tech",
+   "searchable_name": "Roman city beneath Italian fields sewers"
   }
  ],
  "short": {
-  "title": "Buto: Hidden Saite Structure Found from Space #Shorts",
-  "title_plain": "Buto: Hidden Saite Structure Found from Space",
-  "hook": "A 2,600-year-old Saite-era structure beneath Buto was found from space.",
+  "title": "Paw Prints in 4000-Year-Old Anatolian Brick #Shorts",
+  "title_plain": "Paw Prints in 4000-Year-Old Anatolian Brick",
+  "hook": "Paw prints in 4,000-year-old bricks at Tavşanlı Höyük—Mehmet Nuri Ersoy, Turkey’s Minister of Culture and Tourism, said they were made by a dog.",
   "overlay": [
-   "BURIED COMPLEX",
-   "UNDER NILE MUD"
+   "PAW PRINTS",
+   "IN ANCIENT BRICK"
   ],
   "script": [
-   "A 2,600-year-old Saite-era structure beneath Buto was found from space.",
-   "It spans 420 feet and sits beneath a mound of waterlogged clay.",
-   "Deep underground, researchers found a thick layer of clean sand — not just dirt, but a deliberate foundation.",
-   "This sand cushion stopped clay from swelling and protected mudbrick walls from water damage.",
-   "The site also held ushabti figurines and a baboon statue linked to the god Thoth.",
-   "Ancient builders used sand like modern engineers — a smart, tested solution.",
+   "Paw prints in 4,000-year-old bricks at Tavşanlı Höyük—Mehmet Nuri Ersoy, Turkey’s Minister of Culture and Tourism, said they were made by a dog.",
+   "The bricks came from a wall that collapsed during a fire in the Bronze Age.",
+   "Excavations revealed ceramics, bone, and burnt wood alongside the prints.",
+   "Turkey’s culture minister said the prints were made by a dog.",
+   "The site dates back to 8,000 years ago, which is older than the Bronze Age.",
+   "Fragments of flint tools suggest early human activity in the area.",
+   "Could these prints be evidence of early domesticated dogs in Anatolia?",
    "Tap the link below for the full case file."
   ],
-  "description": "A massive 2,600-year-old Saite-era structure was detected beneath Buto, Egypt, using satellite radar and electrical resistivity tomography. Researchers found a thick layer of clean sand at 20 to 23 feet underground, possibly used as a foundation to prevent clay from swelling and damaging mudbrick walls. The site also contained ushabti figurines and a baboon statue linked to Thoth. The discovery reflects advanced understanding of local geology. Source: Live Science, https://www.livescience.com/archaeology/ancient-egyptians/buried-for-2-600-years-beneath-nile-mud-a-massive-ancient-egyptian-complex-was-just-found-from-space\nFull case file: https://youtu.be/0oxRyjMgIBU\nImages: Faris knight / CC0 / Wikimedia Commons; Vassil / CC0 / Wikimedia Commons; Sailko / CC BY 3.0 / Wikimedia Commons; Rama / CC BY-SA 3.0 fr / Wikimedia Commons\n#a #n #c #i #e #n #t #e #g #y #p #t #  # #S #h #o #r #t #s #Shorts",
+  "description": "Paw prints in 4,000-year-old bricks at Tavşanlı Höyük, Turkey, have been identified as likely made by a dog. The site, dating back to 8,000 years ago, includes ceramics, bone, and burnt wood. Turkey’s culture minister attributed the prints to a dog, though researchers have not ruled out other interpretations. The findings suggest early domestication of canines in Anatolia. Source: Archaeology Magazine, https://archaeology.org/news/2026/11/02/paw-prints-found-in-bricks-from-anatolian-bronze-age-building/\nFull case file: https://youtu.be/MPYdONlD6A4\nImages: Mostafameraji / CC0 / Wikimedia Commons; Frank Schulenburg / CC BY-SA 4.0 / Wikimedia Commons; Erkan Fidan (article author; photographe / CC BY 4.0 / Wikimedia Commons\nSome visuals are AI illustrations.\n#ancientturkey #anatolian #dogprints #Shorts",
   "tags": [
-   "e",
-   "g",
-   "y",
-   "p",
-   "t",
-   ",",
-   "a",
-   "n",
-   "c",
-   "i",
-   "e",
-   "n",
-   "t",
-   "e",
-   "g"
+   "ancient turkey",
+   "anatolian archaeology",
+   "dog prints",
+   "bronze age",
+   "tavşanlı höyük",
+   "early domestication",
+   "ancient canines",
+   "adobe bricks",
+   "anatolia",
+   "pre-bronze age"
   ],
-  "tags_csv": "e, g, y, p, t, ,, a, n, c, i, e, n, t, e, g",
-  "pinned_comment": "Tool, toy... or something else? A 2,600-year-old sand foundation shows advanced knowledge of soil — could it be a tomb, shrine, or temple? Full case file: 'Multi-scale detection of buried archaeological elements across different occupation phases' (link above)",
-  "end_question": "Tool, toy... or something else?",
+  "tags_csv": "ancient turkey, anatolian archaeology, dog prints, bronze age, tavşanlı höyük, early domestication, ancient canines, adobe bricks, anatolia, pre-bronze age",
+  "pinned_comment": "Were early Anatolian dogs domesticated by humans, or did they live independently? The prints are in bricks from an 8,000-year-old settlement. Full case file: The Bronze Ring Nobody Can Explain (link above)",
+  "end_question": "What do you think?",
   "related_video": {
-   "id": "0oxRyjMgIBU",
-   "title": "A Robot Found a Door Inside the Great Pyramid",
-   "url": "https://youtu.be/0oxRyjMgIBU"
+   "id": "MPYdONlD6A4",
+   "title": "The Bronze Ring Nobody Can Explain",
+   "url": "https://youtu.be/MPYdONlD6A4"
   },
   "source": {
-   "name": "Live Science",
-   "url": "https://www.livescience.com/archaeology/ancient-egyptians/buried-for-2-600-years-beneath-nile-mud-a-massive-ancient-egyptian-complex-was-just-found-from-space",
-   "headline": "Buried for 2,600 years beneath Nile mud, a massive ancient Egyptian complex was just found — from space",
-   "published": "2026-11-02 16:52 UTC"
+   "name": "Archaeology Magazine",
+   "url": "https://archaeology.org/news/2026/11/02/paw-prints-found-in-bricks-from-anatolian-bronze-age-building/",
+   "headline": "Paw Prints Found in Bricks From Anatolian Bronze Age Building",
+   "published": "2026-11-02 19:00 UTC"
   },
-  "duration_s": 40.2,
-  "size_mb": 15.3,
+  "duration_s": 42.7,
+  "size_mb": 21.6,
   "voice": "kokoro-narrator",
   "credits": [
    {
-    "credit": "Photo: Faris knight / CC0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Ruins_of_mudbrick_buildings_on_the_northern_mound_of_Buto-Desouk.jpg"
+    "credit": "Photo: Mostafameraji / CC0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Metropolitian_Istanbul_-_Landscapes_of_Turkey_12.jpg"
    },
    {
-    "credit": "Photo: Vassil / CC0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Wadjet_Geneva_21102014.jpg"
+    "credit": "Photo: Frank Schulenburg / CC BY-SA 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Male_wild_turkey_(Meleagris_gallopavo)_strutting.jpg"
    },
    {
-    "credit": "Photo: Sailko / CC BY 3.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Fine_del_basso_regno-inizio_periodo_telemaico,_ouadjit_in_bronzo,_400-250_ac_ca,_forse_da_bouto,_02.JPG"
-   },
-   {
-    "credit": "Photo: Rama / CC BY-SA 3.0 fr / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Wadjet-MAHG_25634-P8050342-black.jpg"
+    "credit": "Photo: Erkan Fidan (article author; photographe / CC BY 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Tav%C5%9Fanl%C4%B1_H%C3%B6y%C3%BCk_east-west_section_and_geoarchaeological_survey_areas_(Fidan_2021,_Figure_6).jpg"
    }
   ],
   "visuals": [
    "photo",
    "photo",
+   "ai",
    "photo",
    "photo",
    "photo",
-   "photo"
+   "ai"
   ],
   "fact_check": [
-   "A 2,600-year-old Saite-era structure beneath Buto was found from space.",
-   "It spans 420 feet and sits beneath a mound of waterlogged clay.",
-   "Deep underground, researchers found a thick layer of clean sand — not just dirt, but a deliberate foundation.",
-   "This sand cushion stopped clay from swelling and protected mudbrick walls from water damage.",
-   "The site also held ushabti figurines and a baboon statue linked to the god Thoth.",
-   "Ancient builders used sand like modern engineers — a smart, tested solution."
+   "Paw prints in 4,000-year-old bricks at Tavşanlı Höyük—scientists confirm they were made by a dog.",
+   "The bricks came from a wall that collapsed during a Bronze Age fire.",
+   "Turkey’s culture minister said the prints were made by a dog, not a human or animal with claws.",
+   "The site dates back to 8,000 years ago, long before the Bronze Age."
   ],
-  "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261104-r7/AncientMachines-Short-20261104.mp4",
-  "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261104-r7",
+  "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261104-r8/AncientMachines-Short-20261104.mp4",
+  "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261104-r8",
   "poster": "poster.jpg",
   "file": "AncientMachines-Short-20261104.mp4",
   "model": "../models/llm/model.gguf"
@@ -132,11 +123,17 @@
  "archive": [
   {
    "date": "2026-11-04",
+   "title": "Paw Prints in 4000-Year-Old Anatolian Brick #Shorts",
+   "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261104-r8",
+   "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261104-r8/AncientMachines-Short-20261104.mp4"
+  },
+  {
+   "date": "2026-11-04",
    "title": "Buto: Hidden Saite Structure Found from Space #Shorts",
    "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261104-r7",
    "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261104-r7/AncientMachines-Short-20261104.mp4"
   }
  ],
- "llm_calls": 3,
+ "llm_calls": 4,
  "llm_errors": []
 }
