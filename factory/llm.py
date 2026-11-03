@@ -46,7 +46,7 @@ def chat_json(system, user, models=None, max_tokens=1800, temperature=0.4):
                 out = json.loads(m.group(0) if m else txt)
                 u = j.get("usage", {})
                 log(f"{model} ok in {time.time()-t0:.0f}s, tokens in/out {u.get('prompt_tokens')}/{u.get('completion_tokens')}")
-                USAGE["model_used"] = j.get("model") or model; USAGE["endpoint"] = ep
+                USAGE["model_used"] = "Qwen3-4B-Instruct-2507 (local llama.cpp)" if ep == LOCAL else (j.get("model") or model); USAGE["endpoint"] = ep
                 return out
             except json.JSONDecodeError as e:
                 last = f"{model} bad JSON: {e}"; log(last, txt[:200])

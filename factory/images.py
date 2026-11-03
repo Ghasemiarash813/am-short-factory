@@ -38,7 +38,7 @@ def commons_search(query, limit=12):
         if not any(k in l for k in OK_LIC) or any(re.search(rf"\b{b}\b", l) for b in BAD):
             continue
         title = p.get("title", "")
-        if re.search(r"map|diagram|chart|logo|coat of arms|flag|plan\b|svg", title.lower()):
+        if re.search(r"map|diagram|chart|logo|coat of arms|flag|plan\b|svg|figure|section|meleagris|bird|strutting", title.lower()):
             continue
         res.append({"url": ii.get("thumburl") or ii.get("url"), "page": ii.get("descriptionurl"),
                     "artist": _clean(md.get("Artist", {}).get("value", "")) or "Wikimedia Commons",
@@ -72,7 +72,7 @@ def gather(lines, extra_queries, workdir, article=None, broll_dir="assets/broll"
         pick = None
         qs = [q] + (list(extra_queries) if extra_uses[0] < 2 else [])
         for qq in qs:
-            if not qq:
+            if not qq or len(qq.split()) < 2:   # one-word queries ("Turkey") return junk (birds, flags)
                 continue
             for c in commons_search(qq):
                 stem = re.sub(r"[^a-z]", "", c["title"].lower())[5:22]
