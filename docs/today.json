@@ -1,13 +1,19 @@
 {
  "date": "2026-11-04",
- "generated_at_utc": "2026-11-03 21:38 UTC",
- "generated_at_tehran": "2026-11-04 01:08",
- "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/41723564047",
+ "generated_at_utc": "2026-11-03 21:52 UTC",
+ "generated_at_tehran": "2026-11-04 01:22",
+ "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/41725473745",
  "status": "error",
- "message": "RuntimeError: All models failed. Last: openai/gpt-4.1-nano bad JSON: Expecting value: line 1 column 1 (char 0)",
+ "message": "RuntimeError: All models failed. Last: openai/gpt-4.1-nano error: HTTPSConnectionPool(host='models.inference.ai.azure.com', port=443): Max retries exceeded with url: /chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='models.inference.ai.azure.com', port=443): Failed to resolve 'models.inference.ai.azure.com' ([Errno -2] Name or service not known)\"))",
  "candidates": [],
  "short": null,
  "archive": [],
- "llm_calls": 12,
- "llm_errors": []
+ "llm_calls": 6,
+ "llm_errors": [
+  "https://models.github.ai/inference/chat/completions openai/gpt-4o-mini HTTP 200 non-JSON body: 'OK\\r\\n' ct=text/plain",
+  "https://models.github.ai/inference/chat/completions openai/gpt-4.1-nano HTTP 200 non-JSON body: 'OK\\r\\n' ct=text/plain",
+  "https://models.github.ai/orgs/Ghasemiarash813/inference/chat/completions openai/gpt-4.1-mini HTTP 200 non-JSON body: 'OK\\r\\n' ct=text/plain",
+  "https://models.github.ai/orgs/Ghasemiarash813/inference/chat/completions openai/gpt-4o-mini HTTP 200 non-JSON body: 'OK\\r\\n' ct=text/plain",
+  "https://models.github.ai/orgs/Ghasemiarash813/inference/chat/completions openai/gpt-4.1-nano HTTP 200 non-JSON body: 'OK\\r\\n' ct=text/plain"
+ ]
 }
