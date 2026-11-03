@@ -77,7 +77,7 @@ jobs:
           mkdir -p llama && tar xzf llama.tgz -C llama --strip-components=1
           cd llama && LD_LIBRARY_PATH=. nohup ./llama-server -m ../models/llm/model.gguf -c 12288 -np 1 -t $(nproc) --host 127.0.0.1 --port 8080 > ../llama.log 2>&1 &
           for i in $(seq 1 90); do curl -sf http://127.0.0.1:8080/health >/dev/null && echo "llama-server ready after ${i}s" && exit 0; sleep 2; done
-          tail -50 llama.log; exit 1
+          tail -50 ../llama.log; exit 1
 
       - name: Python packages (+ static ffmpeg fallback)
         run: |

@@ -32,6 +32,32 @@ def words(lines):
     return sum(len(l["text"].split()) for l in lines)
 
 
+def as_list(v, sep=r",\s*"):
+    if isinstance(v, list):
+        return [str(x) for x in v]
+    if isinstance(v, str):
+        return [x for x in re.split(sep, v) if x.strip()]
+    return []
+
+
+RELATED_RULES = [
+    (r"antikythera|\bgears?\b|geared|mechanism|astronomical calculator", "X8newfre5Ds"),
+    (r"great pyramid|khufu|cheops|scanpyramids|muon", "0oxRyjMgIBU"),
+    (r"nazca|geoglyph|peru|andes|inca", "BfBOHKLFXa8"),
+    (r"solstice|equinox|observator|astronom|\bstars?\b|constellation|orion|calendar", "wFKi87528Rc"),
+    (r"egypt|saqqara|giza|pharaoh|nile|luxor|tomb of|mummy|sarcophag", "BDB2DcM3w14"),
+]
+
+
+def pick_related(text):
+    longs = {l["id"]: l for l in CFG["related_longs"]}
+    t = text.lower()
+    for pat, vid in RELATED_RULES:
+        if re.search(pat, t) and vid in longs:
+            return longs[vid]
+    return CFG["related_longs"][0]
+
+
 def clean_title(t):
     t = re.sub(r"\s*#\w+", "", t or "").strip().strip('"')
     if len(t) > 50:
@@ -58,8 +84,12 @@ def main():
         if not cands:
             page.update(status="no_story", message="هیچ خبر تازه‌ای در ۷۲ ساعت گذشته پیدا نشد."); return page, 0
         covered = CFG["already_covered"] + [h["title"] for h in hist[-40:]]
+        cov_keys = [news.title_key(c) for c in covered]
+        cands = [c for c in cands if not any(news.similar(news.title_key(c["title"]), k) for k in cov_keys)]
         ranked = writer.rank(cands, covered, CFG["models"])
         ranked = [r for r in ranked if r.get("score", 0) >= 40] or ranked
+        ranked = [r for r in ranked if not (r.get("searchable_name") and any(
+            r["searchable_name"].lower().split(":")[0].strip() in c.lower() for c in covered if len(r["searchable_name"]) > 3))] or ranked
         page["candidates"] = [{k: r.get(k) for k in ("title", "source", "link", "published", "age_h", "score", "why", "searchable_name")}
                               for r in ranked[:3]]
         if not ranked:
@@ -79,6 +109,14 @@ def main():
         lines = [{"text": l["text"].strip(), "visual": l.get("visual", "")} for l in sc.get("lines", []) if l.get("text")]
         if not (4 <= len(lines) <= 10):
             raise RuntimeError(f"Script has {len(lines)} lines")
+        if words(lines) < 98:
+            try:
+                ex = writer.expand(article, lines, CFG["models"])
+                nl = [{"text": l["text"].strip(), "visual": l.get("visual", "")} for l in ex.get("lines", []) if l.get("text")]
+                if words(nl) > words(lines) and 5 <= len(nl) <= 10:
+                    log(f"expanded {words(lines)} -> {words(nl)} words"); lines = nl
+            except Exception as e:  # noqa
+                log("expand skipped:", e)
         chk = {}
         try:
             chk = writer.fact_check(article, lines, CFG["models"])
@@ -90,9 +128,14 @@ def main():
                 log("fact-check fixed:", chk.get("problems"))
         except Exception as e:  # noqa
             log("fact-check skipped:", e)
+        endq = str(sc.get("end_question") or "").strip()
+        if not lines[-1]["text"].rstrip().endswith("?"):
+            q = endq if endq.endswith("?") else "What do you think it was really for?"
+            lines.append({"text": q, "visual": lines[0].get("visual", "")})
+        if not endq.endswith("?") or len(endq) > 40:
+            endq = lines[-1]["text"] if len(lines[-1]["text"]) <= 40 else "What do you think?"
         title = clean_title(sc.get("title", story["title"]))
-        longs = {l["id"]: l for l in CFG["related_longs"]}
-        rel = longs.get(sc.get("related_video_id")) or CFG["related_longs"][0]
+        rel = pick_related(story["title"] + " " + article["text"][:3000])
         # 4) voice (aim 45-55 s)
         allL = lines + [{"text": CTA, "visual": ""}]
         T, engine = tts.synth(allL, work, speed=0.92)
@@ -118,7 +161,7 @@ def main():
         fname = f"AncientMachines-Short-{stamp}.mp4"
         tag = f"short-{stamp}-r{RUN_NO}"
         overlay = [str(x).upper()[:22] for x in (sc.get("overlay") or [])][:2] or [title.upper()[:22]]
-        meta = {"overlay": overlay, "tag": str(sc.get("tag", "")).upper()[:18], "end_question": sc.get("end_question", "")[:60],
+        meta = {"overlay": overlay, "tag": str(sc.get("tag", "")).upper()[:18], "end_question": endq,
                 "related_title": rel["title"], "related_thumb": rthumb if os.path.exists(rthumb) else ""}
         dur, poster = render.render(T, imgs, meta, f"out/{fname}", work)
         shutil.copy(poster, "docs/poster.jpg")
@@ -133,22 +176,24 @@ def main():
             desc += "\nImages: " + "; ".join(c["credit"].replace("Photo: ", "") for c in credits)
         if any(i["ai"] for i in imgs):
             desc += "\nSome visuals are AI illustrations."
-        hashtags = " ".join(h if h.startswith("#") else "#" + h for h in (sc.get("hashtags") or ["#archaeology", "#Shorts"]))
+        hashtags = " ".join(h if h.startswith("#") else "#" + h for h in as_list(sc.get("hashtags"), sep=r"[\s,]+") or ["#archaeology", "#Shorts"])
         if "#Shorts" not in hashtags:
             hashtags += " #Shorts"
         desc += "\n" + hashtags
-        tags = [t.strip().lstrip("#") for t in (sc.get("tags") or []) if t.strip()][:15]
+        tags = [t.strip().lstrip("#") for t in as_list(sc.get("tags")) if len(t.strip()) > 1][:15]
+        pin = re.split(r"full case file", str(sc.get("pinned_comment") or ""), flags=re.I)[0].strip()
+        pin = (pin or endq) + f" Full case file: {rel['title']} (link above)"
         yt_title = f"{title} #Shorts"
         video_url = f"https://github.com/{REPO}/releases/download/{tag}/{fname}"
         release_url = f"https://github.com/{REPO}/releases/tag/{tag}"
         page.update(status="ok", message="", short={
             "title": yt_title, "title_plain": title, "hook": lines[0]["text"], "overlay": overlay,
             "script": [l["text"] for l in T], "description": desc, "tags": tags, "tags_csv": ", ".join(tags),
-            "pinned_comment": sc.get("pinned_comment", ""), "end_question": sc.get("end_question", ""),
+            "pinned_comment": pin, "end_question": endq,
             "related_video": {"id": rel["id"], "title": rel["title"], "url": f"https://youtu.be/{rel['id']}"},
             "source": {"name": story["source"], "url": article["url"], "headline": story["title"], "published": story["published"]},
             "duration_s": round(dur, 1), "size_mb": size_mb, "voice": engine, "credits": credits,
-            "visuals": ["ai" if i["ai"] else "photo" for i in imgs], "fact_check": chk.get("problems", []),
+            "visuals": ["ai" if i["ai"] else "photo" for i in imgs], "fact_check": [p for p in as_list(chk.get("problems")) if p not in [l["text"] for l in lines]][:5],
             "video_url": video_url, "release_url": release_url, "poster": "poster.jpg", "file": fname,
             "model": llm.USAGE["model_used"]})
         page["archive"] = [{"date": page["date"], "title": yt_title, "release_url": release_url, "video_url": video_url}] + \

@@ -17,18 +17,17 @@ SCRIPT_SYS = """You write one YouTube Short (narration + packaging) for the chan
 - Spoken narration: 6-8 lines, 105-125 words TOTAL (about 45-55 seconds with the closing call to action that is added automatically - do NOT write a CTA).
 - Line 1 starts the hook immediately, <=12 words, formula: "Scientists just [found/confirmed] [thing] - and it changes [famous place/idea]." or "This [age]-year-old [object] [does something unexpected]..." Name the object/place in line 1. Never open with "Hey", "Did you know", "Part 2" or any setup.
 - Put the most surprising fact (the reveal) at about 60% of the script. Answer the question the hook raises.
-- The last line is a short debatable question for comments (e.g. "Tool, toy... or something else?"), max 12 words, and should loop back toward the opening object.
+- The LAST line MUST be a short debatable question ending with "?" (pattern: "<option A>, <option B>... or something else?"), max 12 words, about THIS story's object.
 - Write numbers as words when spoken naturally ("two thousand five hundred years"), plain words, short sentences, no emojis, no hashtags in narration.
 - Each line gets "visual": a 2-4 word Wikimedia Commons search query for a REAL photo that fits that line: prefer the named site, region, museum or object type (e.g. "Saqqara necropolis", "Tanis Egypt", "Roman sarcophagus", "Nile delta satellite"). No people's names unless famous historical figures.
 - title: <=50 characters BEFORE " #Shorts", searchable name in the first 3 words, plain words with clear tension (e.g. "Buto: Egypt's Buried Complex Seen From Space"). Do not include #Shorts yourself.
 - overlay: 2 short uppercase lines shown on the first frame, max 6 words total, naming the object and what is wrong with it (e.g. ["BURIED COMPLEX", "UNDER THE NILE"]).
 - tag: 1-2 uppercase words for the place/country (e.g. "EGYPT").
 - description: 3-5 sentences: first sentence starts with the searchable name; summarize the facts with hedges; then a line "Source: <source name>, <url>". Do not mention AI. Max 900 chars.
-- tags: 10-15 YouTube tags (lowercase, no #).
-- hashtags: 3-4 hashtags ending with #Shorts.
-- pinned_comment: the debate question + one extra true detail from the article + "Full case file: <related long title> (link above)".
+- tags: a JSON ARRAY of 10-15 YouTube tags (lowercase words/phrases, no #), e.g. ["archaeology","ancient egypt","buto"].
+- hashtags: a JSON ARRAY of 3 hashtags, e.g. ["#archaeology","#egypt","#Shorts"].
+- pinned_comment: the debate question + one extra true detail from the article (do NOT add links or video titles).
 - end_question: <=34 characters version of the debate question for the end card.
-- related_video_id: choose the best matching long from the list given (by topic), else the first one.
 - facts: list of {"claim": "...", "quote": "exact supporting sentence from the article"} for every factual claim you used.
 Return JSON with keys: title, overlay, tag, lines (list of {"text","visual"}), description, tags, hashtags, pinned_comment, end_question, related_video_id, facts."""
 
@@ -66,3 +65,11 @@ def write_script(story, article, longs, models):
 def fact_check(article, lines, models):
     user = "ARTICLE:\n" + article["text"][:9000] + "\n\nNARRATION LINES:\n" + json.dumps([l["text"] for l in lines], ensure_ascii=False)
     return chat_json(CHECK_SYS, user, models, max_tokens=1500, temperature=0.0)
+
+
+EXPAND_SYS = """You lengthen a YouTube Short narration. Keep the same facts style and order, using ONLY facts from the article (add 1-3 more true details from it). Target 110-125 words total in 7-8 lines. Line 1 stays the hook (<=12 words). The last line stays a debatable question ending with "?". No CTA. Return JSON {"lines":[{"text":"...","visual":"2-4 word Wikimedia Commons query"}]}."""
+
+
+def expand(article, lines, models):
+    user = "ARTICLE:\n" + article["text"][:9000] + "\n\nCURRENT LINES:\n" + json.dumps(lines, ensure_ascii=False)
+    return chat_json(EXPAND_SYS, user, models, max_tokens=1400, temperature=0.4)

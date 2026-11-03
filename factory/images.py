@@ -65,19 +65,25 @@ def gather(lines, extra_queries, workdir, article=None, broll_dir="assets/broll"
         except Exception as e:  # noqa
             log("og image failed", e)
     assigned = []
+    used_stems = set()
+    extra_uses = [0]
     queries = [l.get("visual", "") for l in lines]
     for i, q in enumerate(queries):
         pick = None
-        for qq in [q] + list(extra_queries):
+        qs = [q] + (list(extra_queries) if extra_uses[0] < 2 else [])
+        for qq in qs:
             if not qq:
                 continue
             for c in commons_search(qq):
-                if c["url"] in used:
+                stem = re.sub(r"[^a-z]", "", c["title"].lower())[5:22]
+                if c["url"] in used or stem in used_stems:
                     continue
                 try:
                     fn = os.path.join(workdir, "c_" + hashlib.md5(c["url"].encode()).hexdigest()[:10] + ".jpg")
                     download(c["url"], fn)
-                    used.add(c["url"])
+                    used.add(c["url"]); used_stems.add(stem)
+                    if qq != q:
+                        extra_uses[0] += 1
                     pick = {"path": fn, "credit": f"Photo: {c['artist'][:40]} / {c['license']} / Wikimedia Commons",
                             "ai": 0, "page": c["page"], "query": qq}
                     break
