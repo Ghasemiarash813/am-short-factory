@@ -1,19 +1,142 @@
 {
  "date": "2026-11-04",
- "generated_at_utc": "2026-11-03 21:52 UTC",
- "generated_at_tehran": "2026-11-04 01:22",
- "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/41725473745",
- "status": "error",
- "message": "RuntimeError: All models failed. Last: openai/gpt-4.1-nano error: HTTPSConnectionPool(host='models.inference.ai.azure.com', port=443): Max retries exceeded with url: /chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='models.inference.ai.azure.com', port=443): Failed to resolve 'models.inference.ai.azure.com' ([Errno -2] Name or service not known)\"))",
- "candidates": [],
- "short": null,
- "archive": [],
- "llm_calls": 6,
- "llm_errors": [
-  "https://models.github.ai/inference/chat/completions openai/gpt-4o-mini HTTP 200 non-JSON body: 'OK\\r\\n' ct=text/plain",
-  "https://models.github.ai/inference/chat/completions openai/gpt-4.1-nano HTTP 200 non-JSON body: 'OK\\r\\n' ct=text/plain",
-  "https://models.github.ai/orgs/Ghasemiarash813/inference/chat/completions openai/gpt-4.1-mini HTTP 200 non-JSON body: 'OK\\r\\n' ct=text/plain",
-  "https://models.github.ai/orgs/Ghasemiarash813/inference/chat/completions openai/gpt-4o-mini HTTP 200 non-JSON body: 'OK\\r\\n' ct=text/plain",
-  "https://models.github.ai/orgs/Ghasemiarash813/inference/chat/completions openai/gpt-4.1-nano HTTP 200 non-JSON body: 'OK\\r\\n' ct=text/plain"
- ]
+ "generated_at_utc": "2026-11-03 21:57 UTC",
+ "generated_at_tehran": "2026-11-04 01:27",
+ "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/41726288351",
+ "status": "ok",
+ "message": "",
+ "candidates": [
+  {
+   "title": "Buried for 2,600 years beneath Nile mud, a massive ancient Egyptian complex was just found — from space",
+   "source": "Live Science",
+   "link": "https://www.livescience.com/archaeology/ancient-egyptians/buried-for-2-600-years-beneath-nile-mud-a-massive-ancient-egyptian-complex-was-just-found-from-space",
+   "published": "2026-11-02 16:52 UTC",
+   "age_h": 29.1,
+   "score": 98,
+   "why": "Space-discovered 2600-year-old Egyptian complex; hidden, shouldn't exist; credible source (Live Science)",
+   "searchable_name": "Buto Egypt ancient complex"
+  },
+  {
+   "title": "Paw Prints Found in Bricks From Anatolian Bronze Age Building",
+   "source": "Archaeology Magazine",
+   "link": "https://archaeology.org/news/2026/11/02/paw-prints-found-in-bricks-from-anatolian-bronze-age-building/",
+   "published": "2026-11-02 19:00 UTC",
+   "age_h": 27.0,
+   "score": 85,
+   "why": "4000-year-old paw prints in Anatolian bricks; unexpected biological evidence; Archaeology Magazine",
+   "searchable_name": "Paw prints Anatolian Bronze Age building"
+  },
+  {
+   "title": "Pyramid discovered in Dalmatia: It is 20 meters tall and took 2,000 years to build",
+   "source": "NewsBar",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWWp3R2dFUWVLa2ZTTlU4VVRVc193TlRpRnk5dzhFXzF4bmpvN3RDazA0Njc0WXhMOVlvT0FmX0gyR1ptWUNjREN0ZEg4X2VaMVFzSWd2WWI5MXZBVjJDTHpaZTYtUy1LbnVoX2N2aE56TjAtVWNRano4NzZybFNlUjdpVFVPZ1h6UEJxSHZsOUVxZkc3eVRVa3lPYmNIZ2xNOGh3TjV3?oc=5",
+   "published": "2026-11-03 15:22 UTC",
+   "age_h": 6.6,
+   "score": 70,
+   "why": "Claimed 20m pyramid in Dalmatia; contradicts known archaeology; unverified; low credibility",
+   "searchable_name": "Pyramid Dalmatia"
+  }
+ ],
+ "short": {
+  "title": "Buto: Hidden Saite Structure Found from Space #Shorts",
+  "title_plain": "Buto: Hidden Saite Structure Found from Space",
+  "hook": "A 2,600-year-old Saite-era structure beneath Buto was found from space.",
+  "overlay": [
+   "BURIED COMPLEX",
+   "UNDER NILE MUD"
+  ],
+  "script": [
+   "A 2,600-year-old Saite-era structure beneath Buto was found from space.",
+   "It spans 420 feet and sits beneath a mound of waterlogged clay.",
+   "Deep underground, researchers found a thick layer of clean sand — not just dirt, but a deliberate foundation.",
+   "This sand cushion stopped clay from swelling and protected mudbrick walls from water damage.",
+   "The site also held ushabti figurines and a baboon statue linked to the god Thoth.",
+   "Ancient builders used sand like modern engineers — a smart, tested solution.",
+   "Tap the link below for the full case file."
+  ],
+  "description": "A massive 2,600-year-old Saite-era structure was detected beneath Buto, Egypt, using satellite radar and electrical resistivity tomography. Researchers found a thick layer of clean sand at 20 to 23 feet underground, possibly used as a foundation to prevent clay from swelling and damaging mudbrick walls. The site also contained ushabti figurines and a baboon statue linked to Thoth. The discovery reflects advanced understanding of local geology. Source: Live Science, https://www.livescience.com/archaeology/ancient-egyptians/buried-for-2-600-years-beneath-nile-mud-a-massive-ancient-egyptian-complex-was-just-found-from-space\nFull case file: https://youtu.be/0oxRyjMgIBU\nImages: Faris knight / CC0 / Wikimedia Commons; Vassil / CC0 / Wikimedia Commons; Sailko / CC BY 3.0 / Wikimedia Commons; Rama / CC BY-SA 3.0 fr / Wikimedia Commons\n#a #n #c #i #e #n #t #e #g #y #p #t #  # #S #h #o #r #t #s #Shorts",
+  "tags": [
+   "e",
+   "g",
+   "y",
+   "p",
+   "t",
+   ",",
+   "a",
+   "n",
+   "c",
+   "i",
+   "e",
+   "n",
+   "t",
+   "e",
+   "g"
+  ],
+  "tags_csv": "e, g, y, p, t, ,, a, n, c, i, e, n, t, e, g",
+  "pinned_comment": "Tool, toy... or something else? A 2,600-year-old sand foundation shows advanced knowledge of soil — could it be a tomb, shrine, or temple? Full case file: 'Multi-scale detection of buried archaeological elements across different occupation phases' (link above)",
+  "end_question": "Tool, toy... or something else?",
+  "related_video": {
+   "id": "0oxRyjMgIBU",
+   "title": "A Robot Found a Door Inside the Great Pyramid",
+   "url": "https://youtu.be/0oxRyjMgIBU"
+  },
+  "source": {
+   "name": "Live Science",
+   "url": "https://www.livescience.com/archaeology/ancient-egyptians/buried-for-2-600-years-beneath-nile-mud-a-massive-ancient-egyptian-complex-was-just-found-from-space",
+   "headline": "Buried for 2,600 years beneath Nile mud, a massive ancient Egyptian complex was just found — from space",
+   "published": "2026-11-02 16:52 UTC"
+  },
+  "duration_s": 40.2,
+  "size_mb": 15.3,
+  "voice": "kokoro-narrator",
+  "credits": [
+   {
+    "credit": "Photo: Faris knight / CC0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Ruins_of_mudbrick_buildings_on_the_northern_mound_of_Buto-Desouk.jpg"
+   },
+   {
+    "credit": "Photo: Vassil / CC0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Wadjet_Geneva_21102014.jpg"
+   },
+   {
+    "credit": "Photo: Sailko / CC BY 3.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Fine_del_basso_regno-inizio_periodo_telemaico,_ouadjit_in_bronzo,_400-250_ac_ca,_forse_da_bouto,_02.JPG"
+   },
+   {
+    "credit": "Photo: Rama / CC BY-SA 3.0 fr / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Wadjet-MAHG_25634-P8050342-black.jpg"
+   }
+  ],
+  "visuals": [
+   "photo",
+   "photo",
+   "photo",
+   "photo",
+   "photo",
+   "photo"
+  ],
+  "fact_check": [
+   "A 2,600-year-old Saite-era structure beneath Buto was found from space.",
+   "It spans 420 feet and sits beneath a mound of waterlogged clay.",
+   "Deep underground, researchers found a thick layer of clean sand — not just dirt, but a deliberate foundation.",
+   "This sand cushion stopped clay from swelling and protected mudbrick walls from water damage.",
+   "The site also held ushabti figurines and a baboon statue linked to the god Thoth.",
+   "Ancient builders used sand like modern engineers — a smart, tested solution."
+  ],
+  "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261104-r7/AncientMachines-Short-20261104.mp4",
+  "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261104-r7",
+  "poster": "poster.jpg",
+  "file": "AncientMachines-Short-20261104.mp4",
+  "model": "../models/llm/model.gguf"
+ },
+ "archive": [
+  {
+   "date": "2026-11-04",
+   "title": "Buto: Hidden Saite Structure Found from Space #Shorts",
+   "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261104-r7",
+   "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261104-r7/AncientMachines-Short-20261104.mp4"
+  }
+ ],
+ "llm_calls": 3,
+ "llm_errors": []
 }
