@@ -1,125 +1,117 @@
 {
- "date": "2026-11-04",
- "generated_at_utc": "2026-11-04 10:48 UTC",
- "generated_at_tehran": "2026-11-04 14:18",
- "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/41816368246",
+ "date": "2026-11-05",
+ "generated_at_utc": "2026-11-05 10:45 UTC",
+ "generated_at_tehran": "2026-11-05 14:15",
+ "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/42013142299",
  "status": "ok",
  "message": "",
  "candidates": [
   {
-   "title": "2,600-Year-Old Egyptian Complex Discovered Beneath Ancient City of Buto",
-   "source": "BGNES",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOHZYMHRSWGVWYWVKd1hmQ0JfOWw0dmVqMFZnUFFyMk5iTzNtR3h2Sm01Q3dzY3oxRU9ycVA2SkhCQUw2LXBCSllUb053WDZNM2ZETzNpUU9jNjgzWjQ4cnJrWm13LXRRWE5KQk1kSHY2Z3V3SjZqbTBhejVFdWU0VER2RXpHVzB0VnJNbUprYmhxb0pPMDRGODFrb21UeldLSVhz?oc=5",
-   "published": "2026-11-04 04:27 UTC",
-   "age_h": 6.3,
+   "title": "CT scans reveal four-letter code to 400-year-old lock from Welsh shipwreck",
+   "source": "Phys.org",
+   "link": "https://phys.org/news/2026-11-ct-scans-reveal-letter-code.html",
+   "published": "2026-11-04 14:20 UTC",
+   "age_h": 20.4,
    "score": 95,
-   "why": "Hidden 2600-year-old Egyptian complex beneath Buto revealed by modern survey; contradicts prior knowledge of site's surface layout",
-   "searchable_name": "2600-year-old Egyptian complex beneath Buto"
+   "why": "CT scan reveals hidden 400-year-old shipwreck lock code — real tech, ancient object, searchable, surprising",
+   "searchable_name": "Welsh shipwreck lock"
   },
   {
-   "title": "Code cracked for shipwreck padlock solving 400-year-old mystery",
-   "source": "BBC",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KaVl2WER1UVBmN0hIcTlKNEtGMllWOVdsSUNtX080TnhNZEJPYTRwWTRHNHJiRzhuMWpXeWJUQm5sRkl2UkVBd2kwWWd6Vkozd0M5R2tOZXI2NnVwWHc?oc=5",
-   "published": "2026-11-03 23:02 UTC",
-   "age_h": 11.8,
+   "title": "Teeth Found in Belize Cave Burial Linked to Maya Elites",
+   "source": "Archaeology Magazine",
+   "link": "https://archaeology.org/news/2026/11/03/teeth-found-in-belize-cave-burial-linked-to-maya-elites/",
+   "published": "2026-11-03 19:00 UTC",
+   "age_h": 39.8,
    "score": 88,
-   "why": "Shipwreck padlock code cracked — reveals ancient maritime technology and trade networks; tangible object with mystery solved",
-   "searchable_name": "shipwreck padlock code"
+   "why": "Maya elite teeth in Belize cave — rare, specific, human remains with cultural significance",
+   "searchable_name": "Belize cave Maya elite teeth"
   },
   {
-   "title": "Greco-Roman funerary building, mummy portraits discovered in Egypt - ABC News",
-   "source": "ABC News - Breaking News, Latest News and Videos",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX1VHOTdySW1pOFJ2UWNUNWs3dTRpN0ZIak9oN01MT1RZVW1FOVRWUm1xbXplbmRaaFkyX29BUXdvaFUybmJIYVRyUzlnY3daOFVkYW90bGFqdmNsY0FlTHk0cFBTR29tZkZEdGc4NnlOdThmbVJPbHIzWGRBS2FKS0tTWUxyRFdicHh1MzFlbFdVV2IzUmwzanY4LUhTTDN4d09rQ0h5b2Q3SEpGQWF1bzVxd1jSAboBQVVfeXFMTUhZOXN1dGhPVzVxM3JpV0lCZ2NLQ013THdxcVkzQ3o5YjFvWjdVQUFVWVF4MUhsRWJwOTlneERxMXpsaXc5em5DSG9nYU5HMVljNlhGcF95UXp3dE1CcUZUU0M2NzRMOXgyZWNXWkZxam8yTk11RFk4U3I1SHQyN0xTU3dSWUwwZ2hGakJDS3kxbzhyN3FTeFZ0U1VhWnhNWnc4M2NZQVFLY3dBUFhKNWhlWjFLTXhSV0t3?oc=5",
-   "published": "2026-11-03 23:18 UTC",
-   "age_h": 11.5,
-   "score": 82,
-   "why": "Greco-Roman funerary building and mummy portraits in Egypt — rare preserved artistic and cultural tech from ancient Egypt",
-   "searchable_name": "Greco-Roman funerary building Egypt"
+   "title": "Greece Has Its Own Pompeii, and the Ruins Tell a Captivating Story of a Sophisticated, Seafaring Bronze Age Society",
+   "source": "Smithsonian",
+   "link": "https://www.smithsonianmag.com/history/greece-has-its-own-pompeii-and-the-ruins-tell-a-captivating-story-of-a-sophisticated-seafaring-bronze-age-society-180989747/",
+   "published": "2026-11-03 12:45 UTC",
+   "age_h": 46.0,
+   "score": 85,
+   "why": "Akrotiri on Santorini — Bronze Age seafaring society, real ancient tech, visible ruins, credible source",
+   "searchable_name": "Akrotiri Santorini"
   }
  ],
  "short": {
-  "title": "Buto: 2600-Year-Old Complex Found Beneath City #Shorts",
-  "title_plain": "Buto: 2600-Year-Old Complex Found Beneath City",
-  "hook": "A 2,600-year-old Egyptian complex was found beneath Buto.",
+  "title": "400-Year-Old Ship Lock Unlocked with Code ANCE #Shorts",
+  "title_plain": "400-Year-Old Ship Lock Unlocked with Code ANCE",
+  "hook": "A 400-year-old shiplock from a Welsh wreck reveals a four-letter code.",
   "overlay": [
-   "BURIED COMPLEX",
-   "UNDER THE NILE"
+   "SHIP LOCK",
+   "BENEATH SANDS"
   ],
   "script": [
-   "A 2,600-year-old Egyptian complex was found beneath Buto.",
-   "Satellite radar revealed a 128 by 62 metre oval anomaly.",
-   "Geophysical scans showed thick brick walls and a 20 by 25 metre structure.",
-   "Scientists found a deliberate sand layer six to seven metres down.",
-   "The sand may have been an artificial foundation to prevent water damage.",
-   "Animal blood residues and a faience baboon figurine suggest religious use.",
-   "Was it a tomb, sanctuary, or sacred space for Thoth?",
+   "A 400-year-old shiplock from a Welsh wreck reveals a four-letter code.",
+   "CT scans showed notches matching letters in a hidden combination.",
+   "The code is ANCE — a discovery that matches historical context.",
+   "Experts say the lock once protected a chest with valuable items.",
+   "The lock's condition and date make it a rare, well-preserved find.",
+   "Was ANCE a personal code, or something more mysterious?",
    "Tap the link below for the full case file."
   ],
-  "description": "A massive 2,600-year-old complex was discovered beneath the ancient city of Buto in Egypt. Satellite radar and geophysical surveys revealed a large oval structure with thick brick walls, possibly used as a religious or funerary site. Researchers found a deliberate sand layer at depth, suggesting an artificial foundation to combat groundwater. Animal blood residues and a baboon figurine linked to Thoth indicate ritual activity. The exact function remains uncertain. Source: BGNES, https://www.bgnes.com/science/2-600-year-old-egyptian-complex-discovered-beneath-ancient-city-of-buto\nFull case file: https://youtu.be/BDB2DcM3w14\nImages: Metropolitan Museum of Art, New York / CC0 / Wikimedia Commons; Viktor Lazić / CC BY-SA 4.0 / Wikimedia Commons; Wikimedia Commons / CC0 / Wikimedia Commons; Wikimedia Commons / CC BY 4.0 / Wikimedia Commons\n#archaeology #egypt #Shorts",
+  "description": "A 400-year-old brass lock from the Ann Francis shipwreck off Wales' coast was unlocked using CT scans, revealing a four-letter code: ANCE. The lock, found in 1996 at Margam Beach, is in exceptional condition and may have secured a chest with valuable items like documents or textiles. Researchers note this is a rare example of a well-preserved Elizabethan combination lock linked to a dated wreck. Experts say the code may have had personal significance to its owner. Source: Phys.org, https://phys.org/news/2026-11-ct-scans-reveal-letter-code.html\nFull case file: https://youtu.be/X8newfre5Ds\nImages: ENERGY.GOV / Public domain / Wikimedia Commons\nSome visuals are AI illustrations.\n#wales #shipwreck #ancientlock #Shorts",
   "tags": [
-   "ancient egypt",
-   "buto",
-   "archaeology",
-   "egyptian complex",
-   "religious site",
-   "geophysical survey",
-   "satellite imaging",
-   "ancient foundation",
-   "thoth",
-   "usabti figurines"
+   "wales",
+   "shipwreck",
+   "ancient lock",
+   "ct scan",
+   "maritime discovery",
+   "shipwreck treasure",
+   "brass lock",
+   "ann francis",
+   "margam beach",
+   "wales shipwreck"
   ],
-  "tags_csv": "ancient egypt, buto, archaeology, egyptian complex, religious site, geophysical survey, satellite imaging, ancient foundation, thoth, usabti figurines",
-  "pinned_comment": "Was it a tomb, sanctuary, or sacred space for Thoth? Scientists found a baboon figurine and animal blood residues suggesting religious use. Full case file: Filippo Biondi's Pyramid Scan: Aliens or Science? (link above)",
+  "tags_csv": "wales, shipwreck, ancient lock, ct scan, maritime discovery, shipwreck treasure, brass lock, ann francis, margam beach, wales shipwreck",
+  "pinned_comment": "Was ANCE a personal code, or something more mysterious? The lock is in exceptional condition and dates to 1583, matching the wreck timeline. Full case file: This 2,000-Year-Old Computer Shouldn't Exist (link above)",
   "end_question": "What do you think?",
   "related_video": {
-   "id": "BDB2DcM3w14",
-   "title": "Filippo Biondi's Pyramid Scan: Aliens or Science?",
-   "url": "https://youtu.be/BDB2DcM3w14"
+   "id": "X8newfre5Ds",
+   "title": "This 2,000-Year-Old Computer Shouldn't Exist",
+   "url": "https://youtu.be/X8newfre5Ds"
   },
   "source": {
-   "name": "BGNES",
-   "url": "https://www.bgnes.com/science/2-600-year-old-egyptian-complex-discovered-beneath-ancient-city-of-buto",
-   "headline": "2,600-Year-Old Egyptian Complex Discovered Beneath Ancient City of Buto",
-   "published": "2026-11-04 04:27 UTC"
+   "name": "Phys.org",
+   "url": "https://phys.org/news/2026-11-ct-scans-reveal-letter-code.html",
+   "headline": "CT scans reveal four-letter code to 400-year-old lock from Welsh shipwreck",
+   "published": "2026-11-04 14:20 UTC"
   },
-  "duration_s": 39.8,
-  "size_mb": 35.3,
+  "duration_s": 30.8,
+  "size_mb": 19.1,
   "voice": "kokoro-narrator",
   "credits": [
    {
-    "credit": "Photo: Metropolitan Museum of Art, New York / CC0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Stela_Shabaqo_Met.jpg"
-   },
-   {
-    "credit": "Photo: Viktor Lazić / CC BY-SA 4.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Qasr_ad-Dachla_or_el-Qasr,_Islamic_Mud_City,_Egypt_60.jpg"
-   },
-   {
-    "credit": "Photo: Wikimedia Commons / CC0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Thoth_as_baboon_MET_LC-10_130_1940_EGDP023520.jpg"
-   },
-   {
-    "credit": "Photo: Wikimedia Commons / CC BY 4.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Copy_of_a_statue_showing_a_deformed_cranium,_Cairo,_Egypt,_1_Wellcome_L0058421.jpg"
+    "credit": "Photo: ENERGY.GOV / Public domain / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Studies_of_Ancient_Glasses_Have_Potential_to_Inform_DOE%E2%80%99s_Nuclear_Waste_Disposition_Alternatives_(7597416568).jpg"
    }
   ],
   "visuals": [
-   "photo",
-   "photo",
-   "photo",
-   "photo",
-   "photo",
-   "photo",
+   "ai",
+   "ai",
+   "ai",
+   "ai",
+   "ai",
    "photo"
   ],
   "fact_check": [],
-  "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261104-r9/AncientMachines-Short-20261104.mp4",
-  "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261104-r9",
+  "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261105-r10/AncientMachines-Short-20261105.mp4",
+  "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261105-r10",
   "poster": "poster.jpg",
-  "file": "AncientMachines-Short-20261104.mp4",
+  "file": "AncientMachines-Short-20261105.mp4",
   "model": "Qwen3-4B-Instruct-2507 (local llama.cpp)"
  },
  "archive": [
+  {
+   "date": "2026-11-05",
+   "title": "400-Year-Old Ship Lock Unlocked with Code ANCE #Shorts",
+   "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261105-r10",
+   "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261105-r10/AncientMachines-Short-20261105.mp4"
+  },
   {
    "date": "2026-11-04",
    "title": "Buto: 2600-Year-Old Complex Found Beneath City #Shorts",
