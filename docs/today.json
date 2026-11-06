@@ -1,111 +1,149 @@
 {
- "date": "2026-11-05",
- "generated_at_utc": "2026-11-05 10:45 UTC",
- "generated_at_tehran": "2026-11-05 14:15",
- "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/42013142299",
+ "date": "2026-11-06",
+ "generated_at_utc": "2026-11-06 10:44 UTC",
+ "generated_at_tehran": "2026-11-06 14:14",
+ "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/42204793034",
  "status": "ok",
  "message": "",
  "candidates": [
   {
-   "title": "CT scans reveal four-letter code to 400-year-old lock from Welsh shipwreck",
+   "title": "Mystery origin of iconic Stonehenge Altar Stone deepens as search narrows",
    "source": "Phys.org",
-   "link": "https://phys.org/news/2026-11-ct-scans-reveal-letter-code.html",
-   "published": "2026-11-04 14:20 UTC",
-   "age_h": 20.4,
+   "link": "https://phys.org/news/2026-11-mystery-iconic-stonehenge-altar-stone.html",
+   "published": "2026-11-05 17:00 UTC",
+   "age_h": 17.7,
    "score": 95,
-   "why": "CT scan reveals hidden 400-year-old shipwreck lock code — real tech, ancient object, searchable, surprising",
-   "searchable_name": "Welsh shipwreck lock"
+   "why": "Stonehenge Altar Stone origin mystery deepens with new scientific narrowing",
+   "searchable_name": "Stonehenge Altar Stone"
   },
   {
-   "title": "Teeth Found in Belize Cave Burial Linked to Maya Elites",
-   "source": "Archaeology Magazine",
-   "link": "https://archaeology.org/news/2026/11/03/teeth-found-in-belize-cave-burial-linked-to-maya-elites/",
-   "published": "2026-11-03 19:00 UTC",
-   "age_h": 39.8,
-   "score": 88,
-   "why": "Maya elite teeth in Belize cave — rare, specific, human remains with cultural significance",
-   "searchable_name": "Belize cave Maya elite teeth"
-  },
-  {
-   "title": "Greece Has Its Own Pompeii, and the Ruins Tell a Captivating Story of a Sophisticated, Seafaring Bronze Age Society",
+   "title": "Archaeologists Found a 3,300-Year-Old Sword at the Bottom of a Volcanic Lake in Italy—and It's Still Sharp",
    "source": "Smithsonian",
-   "link": "https://www.smithsonianmag.com/history/greece-has-its-own-pompeii-and-the-ruins-tell-a-captivating-story-of-a-sophisticated-seafaring-bronze-age-society-180989747/",
-   "published": "2026-11-03 12:45 UTC",
-   "age_h": 46.0,
+   "link": "https://www.smithsonianmag.com/smart-news/archaeologists-found-a-3300-year-old-sword-at-the-bottom-of-a-volcanic-lake-in-italy-and-its-still-sharp-180989813/",
+   "published": "2026-11-05 15:08 UTC",
+   "age_h": 19.6,
+   "score": 90,
+   "why": "3,300-year-old sharp sword found in volcanic lake, still intact — shouldn't exist underwater",
+   "searchable_name": "3300-year-old sword Lake Mezzano"
+  },
+  {
+   "title": "5,000-Year-Old Rock Art Found in Southern India",
+   "source": "Archaeology Magazine",
+   "link": "https://archaeology.org/news/2026/11/04/5000-year-old-rock-art-found-in-southern-india/",
+   "published": "2026-11-04 18:30 UTC",
+   "age_h": 40.2,
    "score": 85,
-   "why": "Akrotiri on Santorini — Bronze Age seafaring society, real ancient tech, visible ruins, credible source",
-   "searchable_name": "Akrotiri Santorini"
+   "why": "5,000-year-old rock art in India — previously unknown, visually striking",
+   "searchable_name": "5000-year-old rock art Southern India"
   }
  ],
  "short": {
-  "title": "400-Year-Old Ship Lock Unlocked with Code ANCE #Shorts",
-  "title_plain": "400-Year-Old Ship Lock Unlocked with Code ANCE",
-  "hook": "A 400-year-old shiplock from a Welsh wreck reveals a four-letter code.",
+  "title": "Stonehenge Altar Stone Source Ruled Out #Shorts",
+  "title_plain": "Stonehenge Altar Stone Source Ruled Out",
+  "hook": "This 4.9-meter Stonehenge Altar Stone does not originate in Wales.",
   "overlay": [
-   "SHIP LOCK",
-   "BENEATH SANDS"
+   "ALTAR STONE",
+   "NOT FROM WALES"
   ],
   "script": [
-   "A 400-year-old shiplock from a Welsh wreck reveals a four-letter code.",
-   "CT scans showed notches matching letters in a hidden combination.",
-   "The code is ANCE — a discovery that matches historical context.",
-   "Experts say the lock once protected a chest with valuable items.",
-   "The lock's condition and date make it a rare, well-preserved find.",
-   "Was ANCE a personal code, or something more mysterious?",
+   "This 4.9-meter Stonehenge Altar Stone does not originate in Wales.",
+   "New tests show its minerals and chemical composition differ from those in Welsh sandstone.",
+   "Scientists now point to northeast Scotland as a likely source.",
+   "No rock with matching characteristics has been found in the Orcadian Basin to date.",
+   "The stone's geological fingerprint has helped narrow its origin to specific areas in Scotland.",
+   "The source may still lie in an untested region, but current evidence supports a Scottish origin.",
+   "Could it have come from a region we haven't tested yet? Or does it belong to a different origin entirely?",
    "Tap the link below for the full case file."
   ],
-  "description": "A 400-year-old brass lock from the Ann Francis shipwreck off Wales' coast was unlocked using CT scans, revealing a four-letter code: ANCE. The lock, found in 1996 at Margam Beach, is in exceptional condition and may have secured a chest with valuable items like documents or textiles. Researchers note this is a rare example of a well-preserved Elizabethan combination lock linked to a dated wreck. Experts say the code may have had personal significance to its owner. Source: Phys.org, https://phys.org/news/2026-11-ct-scans-reveal-letter-code.html\nFull case file: https://youtu.be/X8newfre5Ds\nImages: ENERGY.GOV / Public domain / Wikimedia Commons\nSome visuals are AI illustrations.\n#wales #shipwreck #ancientlock #Shorts",
+  "description": "The Stonehenge Altar Stone, a 4.9-meter sandstone slab, was long thought to originate in Wales. Recent geological analysis using mineral and isotopic tests suggests a possible source in northeast Scotland. However, no matching rock has been found in the Orcadian Basin. Scientists say the search is not over, and the stone's unique composition remains unexplained. Source: Phys.org, https://phys.org/news/2026-11-mystery-iconic-stonehenge-altar-stone.html\nFull case file: https://youtu.be/MPYdONlD6A4\nImages: The Stones of Stonehenge / CC BY 4.0 / Wikimedia Commons; Alan Hughes / CC BY-SA 2.0 / Wikimedia Commons; Mikenorton / CC BY-SA 3.0 / Wikimedia Commons; Fro& Fry / Public domain / Wikimedia Commons; Noushin Nabavi / CC BY-SA 4.0 / Wikimedia Commons; Wikimedia Commons / CC0 / Wikimedia Commons; Joe Mabel / CC BY-SA 3.0 / Wikimedia Commons\n#stonehenge #ancientengland #geology #Shorts",
   "tags": [
-   "wales",
-   "shipwreck",
-   "ancient lock",
-   "ct scan",
-   "maritime discovery",
-   "shipwreck treasure",
-   "brass lock",
-   "ann francis",
-   "margam beach",
-   "wales shipwreck"
+   "stonehenge",
+   "ancient england",
+   "geological mystery",
+   "neolithic",
+   "scotland",
+   "archaeology",
+   "sandstone",
+   "origin",
+   "prehistory",
+   "geological analysis"
   ],
-  "tags_csv": "wales, shipwreck, ancient lock, ct scan, maritime discovery, shipwreck treasure, brass lock, ann francis, margam beach, wales shipwreck",
-  "pinned_comment": "Was ANCE a personal code, or something more mysterious? The lock is in exceptional condition and dates to 1583, matching the wreck timeline. Full case file: This 2,000-Year-Old Computer Shouldn't Exist (link above)",
+  "tags_csv": "stonehenge, ancient england, geological mystery, neolithic, scotland, archaeology, sandstone, origin, prehistory, geological analysis",
+  "pinned_comment": "Could it have come from a region we haven't tested yet? Or does it belong to a different origin entirely? Recent analysis shows the Altar Stone's minerals differ from Welsh sandstone, and no match has been found in Scotland's Orcadian Basin. Full case file: The Bronze Ring Nobody Can Explain (link above)",
   "end_question": "What do you think?",
   "related_video": {
-   "id": "X8newfre5Ds",
-   "title": "This 2,000-Year-Old Computer Shouldn't Exist",
-   "url": "https://youtu.be/X8newfre5Ds"
+   "id": "MPYdONlD6A4",
+   "title": "The Bronze Ring Nobody Can Explain",
+   "url": "https://youtu.be/MPYdONlD6A4"
   },
   "source": {
    "name": "Phys.org",
-   "url": "https://phys.org/news/2026-11-ct-scans-reveal-letter-code.html",
-   "headline": "CT scans reveal four-letter code to 400-year-old lock from Welsh shipwreck",
-   "published": "2026-11-04 14:20 UTC"
+   "url": "https://phys.org/news/2026-11-mystery-iconic-stonehenge-altar-stone.html",
+   "headline": "Mystery origin of iconic Stonehenge Altar Stone deepens as search narrows",
+   "published": "2026-11-05 17:00 UTC"
   },
-  "duration_s": 30.8,
-  "size_mb": 19.1,
+  "duration_s": 45.6,
+  "size_mb": 38.3,
   "voice": "kokoro-narrator",
   "credits": [
    {
-    "credit": "Photo: ENERGY.GOV / Public domain / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Studies_of_Ancient_Glasses_Have_Potential_to_Inform_DOE%E2%80%99s_Nuclear_Waste_Disposition_Alternatives_(7597416568).jpg"
+    "credit": "Photo: The Stones of Stonehenge / CC BY 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Stonehenge-Altar-Stone_P1110732.jpg"
+   },
+   {
+    "credit": "Photo: Alan Hughes / CC BY-SA 2.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Sandstone_outcrop_-_geograph.org.uk_-_6425546.jpg"
+   },
+   {
+    "credit": "Photo: Mikenorton / CC BY-SA 3.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Orcadian_Basin_extent.png"
+   },
+   {
+    "credit": "Photo: Fro& Fry / Public domain / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Alfred_Harker.jpg"
+   },
+   {
+    "credit": "Photo: Noushin Nabavi / CC BY-SA 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Stonehenge_monuments_from_a_distance.jpg"
+   },
+   {
+    "credit": "Photo: Wikimedia Commons / CC0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:James_Waterhouse_-_Stonehenge,_Trilithon_(On_the_left_of_altar_stone)_-_B2018.7.51_-_Yale_Center_for_British_Art.jpg"
+   },
+   {
+    "credit": "Photo: Joe Mabel / CC BY-SA 3.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Maryhill_Stonehenge_-_plaque_on_altar_01.jpg"
    }
   ],
   "visuals": [
-   "ai",
-   "ai",
-   "ai",
-   "ai",
-   "ai",
+   "photo",
+   "photo",
+   "photo",
+   "photo",
+   "photo",
+   "photo",
    "photo"
   ],
-  "fact_check": [],
-  "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261105-r10/AncientMachines-Short-20261105.mp4",
-  "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261105-r10",
+  "fact_check": [
+   "This 4.9-meter Stonehenge Altar Stone may not come from Wales. - The article states the Welsh origin theory was 'overturned', not that it 'may not come from Wales'. This implies uncertainty not supported by the article's clear conclusion that Scotland is now the likely source.",
+   "New tests show its minerals and chemistry differ from Welsh sandstone. - The article does not state that the minerals and chemistry differ from Welsh sandstone; it says the study tested the stone's composition and ruled out Wales by showing no match in characteristics. This claim is speculative and unsupported.",
+   "Scientists now point to northeast Scotland as a likely source. - The article says the research 'pointed to northeast Scotland as a likely source', which is accurate and supported.",
+   "Yet no matching rock has been found in the Scottish basin yet. - The article says 'So far, the search in the Orcadian Basin in northeast Scotland has not revealed a location with the same characteristics as the Altar Stone.' This line misrepresents the claim by saying 'no matching rock has been found', which is not explicitly stated. The article says characteristics don't match, not that no rock exists.",
+   "The stone's unique fingerprint means its origin remains a mystery. - The article does not say the origin remains a mystery; it says the search is ongoing and that scientists are now better equipped to narrow the search. This overstates uncertainty."
+  ],
+  "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261106-r11/AncientMachines-Short-20261106.mp4",
+  "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261106-r11",
   "poster": "poster.jpg",
-  "file": "AncientMachines-Short-20261105.mp4",
+  "file": "AncientMachines-Short-20261106.mp4",
   "model": "Qwen3-4B-Instruct-2507 (local llama.cpp)"
  },
  "archive": [
+  {
+   "date": "2026-11-06",
+   "title": "Stonehenge Altar Stone Source Ruled Out #Shorts",
+   "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261106-r11",
+   "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261106-r11/AncientMachines-Short-20261106.mp4"
+  },
   {
    "date": "2026-11-05",
    "title": "400-Year-Old Ship Lock Unlocked with Code ANCE #Shorts",
