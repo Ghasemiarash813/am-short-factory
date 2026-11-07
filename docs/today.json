@@ -1,75 +1,76 @@
 {
- "date": "2026-11-06",
- "generated_at_utc": "2026-11-06 10:44 UTC",
- "generated_at_tehran": "2026-11-06 14:14",
- "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/42204793034",
+ "date": "2026-11-07",
+ "generated_at_utc": "2026-11-07 09:57 UTC",
+ "generated_at_tehran": "2026-11-07 13:27",
+ "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/42361750593",
  "status": "ok",
  "message": "",
  "candidates": [
   {
-   "title": "Mystery origin of iconic Stonehenge Altar Stone deepens as search narrows",
-   "source": "Phys.org",
-   "link": "https://phys.org/news/2026-11-mystery-iconic-stonehenge-altar-stone.html",
-   "published": "2026-11-05 17:00 UTC",
-   "age_h": 17.7,
-   "score": 95,
-   "why": "Stonehenge Altar Stone origin mystery deepens with new scientific narrowing",
-   "searchable_name": "Stonehenge Altar Stone"
-  },
-  {
-   "title": "Archaeologists Found a 3,300-Year-Old Sword at the Bottom of a Volcanic Lake in Italy—and It's Still Sharp",
+   "title": "This Wooden Wardrobe in Pompeii Remained Sealed for Nearly 2,000 Years. Archaeologists Just Opened It for the First Time",
    "source": "Smithsonian",
-   "link": "https://www.smithsonianmag.com/smart-news/archaeologists-found-a-3300-year-old-sword-at-the-bottom-of-a-volcanic-lake-in-italy-and-its-still-sharp-180989813/",
-   "published": "2026-11-05 15:08 UTC",
-   "age_h": 19.6,
-   "score": 90,
-   "why": "3,300-year-old sharp sword found in volcanic lake, still intact — shouldn't exist underwater",
-   "searchable_name": "3300-year-old sword Lake Mezzano"
+   "link": "https://www.smithsonianmag.com/smart-news/this-wooden-wardrobe-in-pompeii-remained-sealed-for-nearly-2000-years-archaeologists-just-opened-it-for-the-first-time-180989831/",
+   "published": "2026-11-06 21:13 UTC",
+   "age_h": 12.7,
+   "score": 85,
+   "why": "Sealed wooden wardrobe in Pompeii with unexpected artifacts; rare, intact, and visually striking find",
+   "searchable_name": "Pompeii wooden wardrobe"
   },
   {
-   "title": "5,000-Year-Old Rock Art Found in Southern India",
+   "title": "Playing Cards Found in Mongol Invasion Shipwreck Off Japan",
    "source": "Archaeology Magazine",
-   "link": "https://archaeology.org/news/2026/11/04/5000-year-old-rock-art-found-in-southern-india/",
-   "published": "2026-11-04 18:30 UTC",
-   "age_h": 40.2,
-   "score": 85,
-   "why": "5,000-year-old rock art in India — previously unknown, visually striking",
-   "searchable_name": "5000-year-old rock art Southern India"
+   "link": "https://archaeology.org/news/2026/11/06/playing-cards-found-in-mongol-invasion-shipwreck-off-japan/",
+   "published": "2026-11-06 19:00 UTC",
+   "age_h": 15.0,
+   "score": 78,
+   "why": "Newly discovered Ice Age rock art in Catalonia rewrote prehistory; visually powerful and previously unknown",
+   "searchable_name": "Catalonia Ice Age engravings"
+  },
+  {
+   "title": "2,800-year-old tomb in Siberia has evidence of the earliest use of cannabis — possibly as a way to calm human sacrifice victims",
+   "source": "Live Science",
+   "link": "https://www.livescience.com/archaeology/2-800-year-old-tomb-in-siberia-has-evidence-of-the-earliest-use-of-cannabis-possibly-as-a-way-to-calm-human-sacrifice-victims",
+   "published": "2026-11-05 19:56 UTC",
+   "age_h": 38.0,
+   "score": 70,
+   "why": "Earliest cannabis use in 2800-year-old Siberian tomb—unexpected evidence of ancient psychoactive ritual",
+   "searchable_name": "Siberia cannabis tomb"
   }
  ],
  "short": {
-  "title": "Stonehenge Altar Stone Source Ruled Out #Shorts",
-  "title_plain": "Stonehenge Altar Stone Source Ruled Out",
-  "hook": "This 4.9-meter Stonehenge Altar Stone does not originate in Wales.",
+  "title": "Pompeii Wardrobe: Sealed for 2,000 Years #Shorts",
+  "title_plain": "Pompeii Wardrobe: Sealed for 2,000 Years",
+  "hook": "This 2,000-year-old wardrobe in Pompeii remained sealed for nearly two millennia.",
   "overlay": [
-   "ALTAR STONE",
-   "NOT FROM WALES"
+   "WOODENWARDROBE",
+   "SEALING IN ASHES"
   ],
   "script": [
-   "This 4.9-meter Stonehenge Altar Stone does not originate in Wales.",
-   "New tests show its minerals and chemical composition differ from those in Welsh sandstone.",
-   "Scientists now point to northeast Scotland as a likely source.",
-   "No rock with matching characteristics has been found in the Orcadian Basin to date.",
-   "The stone's geological fingerprint has helped narrow its origin to specific areas in Scotland.",
-   "The source may still lie in an untested region, but current evidence supports a Scottish origin.",
-   "Could it have come from a region we haven't tested yet? Or does it belong to a different origin entirely?",
+   "This 2,000-year-old wardrobe in Pompeii remained sealed for nearly two millennia.",
+   "Inside: a bronze lamp, 38 coins from the time of Nero, and a necklace with at least two dozen amulets.",
+   "Amulets of Mercury, Bes, and grapes reveal spiritual beliefs and daily life.",
+   "Tweezers, makeup tools, and an amphora with mouse bone fragments hint at domestic routines.",
+   "A wooden box with eight lead weights may have been used by a merchant, and the house was under renovation.",
+   "The necklace may have belonged to a child or adult, a keepsake from parents who lived far away.",
+   "The family likely left during the eruption but never returned home.",
+   "Was the necklace given to a child or worn by an adult?",
    "Tap the link below for the full case file."
   ],
-  "description": "The Stonehenge Altar Stone, a 4.9-meter sandstone slab, was long thought to originate in Wales. Recent geological analysis using mineral and isotopic tests suggests a possible source in northeast Scotland. However, no matching rock has been found in the Orcadian Basin. Scientists say the search is not over, and the stone's unique composition remains unexplained. Source: Phys.org, https://phys.org/news/2026-11-mystery-iconic-stonehenge-altar-stone.html\nFull case file: https://youtu.be/MPYdONlD6A4\nImages: The Stones of Stonehenge / CC BY 4.0 / Wikimedia Commons; Alan Hughes / CC BY-SA 2.0 / Wikimedia Commons; Mikenorton / CC BY-SA 3.0 / Wikimedia Commons; Fro& Fry / Public domain / Wikimedia Commons; Noushin Nabavi / CC BY-SA 4.0 / Wikimedia Commons; Wikimedia Commons / CC0 / Wikimedia Commons; Joe Mabel / CC BY-SA 3.0 / Wikimedia Commons\n#stonehenge #ancientengland #geology #Shorts",
+  "description": "A wooden wardrobe in Pompeii, sealed for nearly 2,000 years, contained personal items like a necklace with miniature charms and coins. Researchers suspect the family fled during the 79 C.E. eruption of Mount Vesuvius. The necklace features amulets of Mercury and Bes, indicating emotional and spiritual connections. Experts note the find reflects daily life and displacement in ancient Roman society. Some artifacts suggest domestic work, trade, and rodent infestations. Source: Smithsonian, https://www.smithsonianmag.com/smart-news/this-wooden-wardrobe-in-pompeii-remained-sealed-for-nearly-2000-years-archaeologists-just-opened-it-for-the-first-time-180989831/\nFull case file: https://youtu.be/MPYdONlD6A4\nImages: Luigi Bazzani / Public domain / Wikimedia Commons; Wikimedia Commons / CC0 / Wikimedia Commons; Adolphe Bouchet, 1870 / Public domain / Wikimedia Commons; Jamie Heath from United Kingdom / CC BY-SA 2.0 / Wikimedia Commons\nSome visuals are AI illustrations.\n#pompeii #ancientitaly #archaeology #Shorts",
   "tags": [
-   "stonehenge",
-   "ancient england",
-   "geological mystery",
-   "neolithic",
-   "scotland",
+   "pompeii",
+   "ancient italy",
+   "roman daily life",
    "archaeology",
-   "sandstone",
-   "origin",
-   "prehistory",
-   "geological analysis"
+   "wardrobe",
+   "crepundia",
+   "vesuvius",
+   "roman jewelry",
+   "domestic artifacts",
+   "ancient europe"
   ],
-  "tags_csv": "stonehenge, ancient england, geological mystery, neolithic, scotland, archaeology, sandstone, origin, prehistory, geological analysis",
-  "pinned_comment": "Could it have come from a region we haven't tested yet? Or does it belong to a different origin entirely? Recent analysis shows the Altar Stone's minerals differ from Welsh sandstone, and no match has been found in Scotland's Orcadian Basin. Full case file: The Bronze Ring Nobody Can Explain (link above)",
+  "tags_csv": "pompeii, ancient italy, roman daily life, archaeology, wardrobe, crepundia, vesuvius, roman jewelry, domestic artifacts, ancient europe",
+  "pinned_comment": "Was the necklace given to a child or worn by an adult? It contained amulets of Mercury and Bes, showing personal and spiritual significance. Full case file: The Bronze Ring Nobody Can Explain (link above)",
   "end_question": "What do you think?",
   "related_video": {
    "id": "MPYdONlD6A4",
@@ -77,42 +78,30 @@
    "url": "https://youtu.be/MPYdONlD6A4"
   },
   "source": {
-   "name": "Phys.org",
-   "url": "https://phys.org/news/2026-11-mystery-iconic-stonehenge-altar-stone.html",
-   "headline": "Mystery origin of iconic Stonehenge Altar Stone deepens as search narrows",
-   "published": "2026-11-05 17:00 UTC"
+   "name": "Smithsonian",
+   "url": "https://www.smithsonianmag.com/smart-news/this-wooden-wardrobe-in-pompeii-remained-sealed-for-nearly-2000-years-archaeologists-just-opened-it-for-the-first-time-180989831/",
+   "headline": "This Wooden Wardrobe in Pompeii Remained Sealed for Nearly 2,000 Years. Archaeologists Just Opened It for the First Time",
+   "published": "2026-11-06 21:13 UTC"
   },
-  "duration_s": 45.6,
-  "size_mb": 38.3,
+  "duration_s": 50.1,
+  "size_mb": 29.6,
   "voice": "kokoro-narrator",
   "credits": [
    {
-    "credit": "Photo: The Stones of Stonehenge / CC BY 4.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Stonehenge-Altar-Stone_P1110732.jpg"
-   },
-   {
-    "credit": "Photo: Alan Hughes / CC BY-SA 2.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Sandstone_outcrop_-_geograph.org.uk_-_6425546.jpg"
-   },
-   {
-    "credit": "Photo: Mikenorton / CC BY-SA 3.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Orcadian_Basin_extent.png"
-   },
-   {
-    "credit": "Photo: Fro& Fry / Public domain / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Alfred_Harker.jpg"
-   },
-   {
-    "credit": "Photo: Noushin Nabavi / CC BY-SA 4.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Stonehenge_monuments_from_a_distance.jpg"
+    "credit": "Photo: Luigi Bazzani / Public domain / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Atrium_interior_in_Pompeii_watercolor_by_Luigi_Bazzani.jpg"
    },
    {
     "credit": "Photo: Wikimedia Commons / CC0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:James_Waterhouse_-_Stonehenge,_Trilithon_(On_the_left_of_altar_stone)_-_B2018.7.51_-_Yale_Center_for_British_Art.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Iron_ring_with_a_figurine_of_a_deity,_iron_-_Museo_Egizio,_Turin_C_6626_p01.jpg"
    },
    {
-    "credit": "Photo: Joe Mabel / CC BY-SA 3.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Maryhill_Stonehenge_-_plaque_on_altar_01.jpg"
+    "credit": "Photo: Adolphe Bouchet, 1870 / Public domain / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Drawing_of_Fresco_depicting_a_Wine_Wagon_and_Scene_of_Drinkers_by_Adolphe_Bouchet.jpg"
+   },
+   {
+    "credit": "Photo: Jamie Heath from United Kingdom / CC BY-SA 2.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:House_of_the_Orchard_-_Pompeii_Scavi_(49347431292).jpg"
    }
   ],
   "visuals": [
@@ -122,22 +111,29 @@
    "photo",
    "photo",
    "photo",
+   "ai",
    "photo"
   ],
   "fact_check": [
-   "This 4.9-meter Stonehenge Altar Stone may not come from Wales. - The article states the Welsh origin theory was 'overturned', not that it 'may not come from Wales'. This implies uncertainty not supported by the article's clear conclusion that Scotland is now the likely source.",
-   "New tests show its minerals and chemistry differ from Welsh sandstone. - The article does not state that the minerals and chemistry differ from Welsh sandstone; it says the study tested the stone's composition and ruled out Wales by showing no match in characteristics. This claim is speculative and unsupported.",
-   "Scientists now point to northeast Scotland as a likely source. - The article says the research 'pointed to northeast Scotland as a likely source', which is accurate and supported.",
-   "Yet no matching rock has been found in the Scottish basin yet. - The article says 'So far, the search in the Orcadian Basin in northeast Scotland has not revealed a location with the same characteristics as the Altar Stone.' This line misrepresents the claim by saying 'no matching rock has been found', which is not explicitly stated. The article says characteristics don't match, not that no rock exists.",
-   "The stone's unique fingerprint means its origin remains a mystery. - The article does not say the origin remains a mystery; it says the search is ongoing and that scientists are now better equipped to narrow the search. This overstates uncertainty."
+   "states 'nearly two millennia' — the article says 'nearly 2,000 years ago', not 'nearly two millennia' (which implies a duration, not a time point)",
+   "claims '38 Nero-era coins' — the article says 'most of the bronze coins date to the time of Nero', not that all 38 are from Nero-era",
+   "claims '20+ amulets' — the article says 'at least two dozen', which is 24 or more; '20+' is less precise and not fully supported",
+   "states 'rodent-infested amphora' — the article says '117 bone fragments likely belonged to field mice', not that the amphora was 'infested'",
+   "claims 'a merchant’s lead weights' — the article says 'a wooden box filled with eight lead weights might have been used by a merchant', not that it definitively belonged to a merchant"
   ],
-  "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261106-r11/AncientMachines-Short-20261106.mp4",
-  "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261106-r11",
+  "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261107-r12/AncientMachines-Short-20261107.mp4",
+  "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261107-r12",
   "poster": "poster.jpg",
-  "file": "AncientMachines-Short-20261106.mp4",
+  "file": "AncientMachines-Short-20261107.mp4",
   "model": "Qwen3-4B-Instruct-2507 (local llama.cpp)"
  },
  "archive": [
+  {
+   "date": "2026-11-07",
+   "title": "Pompeii Wardrobe: Sealed for 2,000 Years #Shorts",
+   "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261107-r12",
+   "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261107-r12/AncientMachines-Short-20261107.mp4"
+  },
   {
    "date": "2026-11-06",
    "title": "Stonehenge Altar Stone Source Ruled Out #Shorts",
