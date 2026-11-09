@@ -1,133 +1,138 @@
 {
- "date": "2026-11-07",
- "generated_at_utc": "2026-11-07 09:57 UTC",
- "generated_at_tehran": "2026-11-07 13:27",
- "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/42361750593",
+ "date": "2026-11-09",
+ "generated_at_utc": "2026-11-09 11:21 UTC",
+ "generated_at_tehran": "2026-11-09 14:51",
+ "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/42608101285",
  "status": "ok",
  "message": "",
  "candidates": [
   {
-   "title": "This Wooden Wardrobe in Pompeii Remained Sealed for Nearly 2,000 Years. Archaeologists Just Opened It for the First Time",
-   "source": "Smithsonian",
-   "link": "https://www.smithsonianmag.com/smart-news/this-wooden-wardrobe-in-pompeii-remained-sealed-for-nearly-2000-years-archaeologists-just-opened-it-for-the-first-time-180989831/",
-   "published": "2026-11-06 21:13 UTC",
-   "age_h": 12.7,
-   "score": 85,
-   "why": "Sealed wooden wardrobe in Pompeii with unexpected artifacts; rare, intact, and visually striking find",
-   "searchable_name": "Pompeii wooden wardrobe"
+   "title": "A burial site containing 10 mummified crocodiles dating back 2,500 years has been discovered in Egypt",
+   "source": "UA.NEWS",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMzNGX21qZEVEQzI1Q3AwbHM0TEdLR3BlR05uR01RQmU0SnpFelJ0SWpWWmpuRjVXRXFEZWhEWVlJMkVVNlZjYk1nS3pBTDc2Smg2Rl9QSGRCNG9vN3pCc0g1bzVvQlZfcWotaVFxSlI3Wm9XdEFyY3prUlM1bmw0cXUyUVBnWkdXOWwtVFJwZkJydU4ybmFMVC1XcUJTYkdIbDJRRw?oc=5",
+   "published": "2026-11-08 19:34 UTC",
+   "age_h": 15.8,
+   "score": 95,
+   "why": "Mummified crocodiles in 2500-year-old Egyptian burial site — unexpected, vivid, and directly contradicts known practices",
+   "searchable_name": "Mummified crocodiles Egypt 2500 BC"
   },
   {
-   "title": "Playing Cards Found in Mongol Invasion Shipwreck Off Japan",
-   "source": "Archaeology Magazine",
-   "link": "https://archaeology.org/news/2026/11/06/playing-cards-found-in-mongol-invasion-shipwreck-off-japan/",
-   "published": "2026-11-06 19:00 UTC",
-   "age_h": 15.0,
-   "score": 78,
-   "why": "Newly discovered Ice Age rock art in Catalonia rewrote prehistory; visually powerful and previously unknown",
-   "searchable_name": "Catalonia Ice Age engravings"
-  },
-  {
-   "title": "2,800-year-old tomb in Siberia has evidence of the earliest use of cannabis — possibly as a way to calm human sacrifice victims",
+   "title": "Terracotta cockerel vase: A 2,600-year-old Etruscan inkwell featuring 26 letters of the undeciphered ancient language",
    "source": "Live Science",
-   "link": "https://www.livescience.com/archaeology/2-800-year-old-tomb-in-siberia-has-evidence-of-the-earliest-use-of-cannabis-possibly-as-a-way-to-calm-human-sacrifice-victims",
-   "published": "2026-11-05 19:56 UTC",
-   "age_h": 38.0,
-   "score": 70,
-   "why": "Earliest cannabis use in 2800-year-old Siberian tomb—unexpected evidence of ancient psychoactive ritual",
-   "searchable_name": "Siberia cannabis tomb"
+   "link": "https://www.livescience.com/archaeology/terracotta-cockerel-vase-a-2-600-year-old-etruscan-inkwell-featuring-26-letters-of-the-undeciphered-ancient-language",
+   "published": "2026-11-09 11:00 UTC",
+   "age_h": 0.4,
+   "score": 88,
+   "why": "Etruscan inkwell with 26-letter undeciphered script — rare linguistic artifact with real mystery and visual appeal",
+   "searchable_name": "Etruscan inkwell 26 letters"
+  },
+  {
+   "title": "Archaeologists Identify Forgotten Egyptian Queen's Pyramid and Uncover Hundreds of Ancient Coffins",
+   "source": "BGNES",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUmVQMVFXMnJvV2VxZ19zaTRSaUJXOFhiaEZZNlA2Zk1TaGt5RHE4MGQyTDlycmRDSDQ3T3ItSW9HZUNGcmFIZjFXX3MxTU9fYUg4U0lCbFp4d05VdTNyTG9IZnRxM0x1MWpTMkE0c2xsVVFYZVZpMHBiZFY4V3N5a1R3MUN5Yml1ZWNxNzFvWUFhUW9hV1BEV0hHeTFzeVZabUxDb3JhM2ZrQ2xKUmxTYUJjTTM1TnJ2akpYMGpHd3JNZE9PdlZZ?oc=5",
+   "published": "2026-11-08 16:05 UTC",
+   "age_h": 19.3,
+   "score": 82,
+   "why": "Forgotten queen's pyramid and hundreds of coffins — major new discovery in Egypt with clear 'we never knew' tension",
+   "searchable_name": "Forgotten Egyptian queen's pyramid Saqqara"
   }
  ],
  "short": {
-  "title": "Pompeii Wardrobe: Sealed for 2,000 Years #Shorts",
-  "title_plain": "Pompeii Wardrobe: Sealed for 2,000 Years",
-  "hook": "This 2,000-year-old wardrobe in Pompeii remained sealed for nearly two millennia.",
+  "title": "Crocodiles in Buto's Buried Tomb #Shorts",
+  "title_plain": "Crocodiles in Buto's Buried Tomb",
+  "hook": "Scientists just found 10 mummified crocodiles - and it changes our understanding of ancient Egyptian burial practices.",
   "overlay": [
-   "WOODENWARDROBE",
-   "SEALING IN ASHES"
+   "10 MUMMIFIED CROCODILE",
+   "BENEATH KOM C"
   ],
   "script": [
-   "This 2,000-year-old wardrobe in Pompeii remained sealed for nearly two millennia.",
-   "Inside: a bronze lamp, 38 coins from the time of Nero, and a necklace with at least two dozen amulets.",
-   "Amulets of Mercury, Bes, and grapes reveal spiritual beliefs and daily life.",
-   "Tweezers, makeup tools, and an amphora with mouse bone fragments hint at domestic routines.",
-   "A wooden box with eight lead weights may have been used by a merchant, and the house was under renovation.",
-   "The necklace may have belonged to a child or adult, a keepsake from parents who lived far away.",
-   "The family likely left during the eruption but never returned home.",
-   "Was the necklace given to a child or worn by an adult?",
+   "Scientists just found 10 mummified crocodiles - and it changes our understanding of ancient Egyptian burial practices.",
+   "The site dates to approximately the 5th century B.C. near Aswan, southern Egypt.",
+   "No resin was used, and organs were left intact — a rare mummification method.",
+   "Five nearly intact bodies and five separate crocodile heads were found, including a West African species not currently found in Egypt.",
+   "Researchers believe the crocodiles were sacrificed to Sobek, god of water and fertility.",
+   "DNA analysis may confirm the presence of a now-extinct crocodile species in ancient Egypt.",
+   "Sacrificed to Sobek, or ritual for water? Or something else?",
    "Tap the link below for the full case file."
   ],
-  "description": "A wooden wardrobe in Pompeii, sealed for nearly 2,000 years, contained personal items like a necklace with miniature charms and coins. Researchers suspect the family fled during the 79 C.E. eruption of Mount Vesuvius. The necklace features amulets of Mercury and Bes, indicating emotional and spiritual connections. Experts note the find reflects daily life and displacement in ancient Roman society. Some artifacts suggest domestic work, trade, and rodent infestations. Source: Smithsonian, https://www.smithsonianmag.com/smart-news/this-wooden-wardrobe-in-pompeii-remained-sealed-for-nearly-2000-years-archaeologists-just-opened-it-for-the-first-time-180989831/\nFull case file: https://youtu.be/MPYdONlD6A4\nImages: Luigi Bazzani / Public domain / Wikimedia Commons; Wikimedia Commons / CC0 / Wikimedia Commons; Adolphe Bouchet, 1870 / Public domain / Wikimedia Commons; Jamie Heath from United Kingdom / CC BY-SA 2.0 / Wikimedia Commons\nSome visuals are AI illustrations.\n#pompeii #ancientitaly #archaeology #Shorts",
+  "description": "A burial site with 10 mummified crocodiles was found near Buto, Egypt, dating to around 5th century B.C. The animals were mummified without resin or organ removal, and included a West African species not native to modern Egypt. Researchers suspect they were offerings to the god Sobek. The discovery was made using satellite radar and ground-penetrating scans. Source: The Daily Galaxy, https://ua.news/en/culture/u-egipti-znaishli-pokhovannia-10-mumifikovanikh-krokodiliv-vikom-2500-rokiv\nFull case file: https://youtu.be/BDB2DcM3w14\nImages: Metropolitan Museum of Art, New York / CC0 / Wikimedia Commons; Daderot / CC0 / Wikimedia Commons; Wikimedia Commons / CC BY 4.0 / Wikimedia Commons; Olaf Tausch / CC BY 3.0 / Wikimedia Commons; Carlos Maluquer de Motes / CC BY 4.0 / Wikimedia Commons\nSome visuals are AI illustrations.\n#ancientegypt #buto #Shorts",
   "tags": [
-   "pompeii",
-   "ancient italy",
-   "roman daily life",
+   "ancient egypt",
+   "buto",
+   "crocodile mummies",
+   "sobek",
+   "mummification",
+   "egyptian burial",
    "archaeology",
-   "wardrobe",
-   "crepundia",
-   "vesuvius",
-   "roman jewelry",
-   "domestic artifacts",
-   "ancient europe"
+   "satellite discovery",
+   "ancient animals",
+   "egyptian gods"
   ],
-  "tags_csv": "pompeii, ancient italy, roman daily life, archaeology, wardrobe, crepundia, vesuvius, roman jewelry, domestic artifacts, ancient europe",
-  "pinned_comment": "Was the necklace given to a child or worn by an adult? It contained amulets of Mercury and Bes, showing personal and spiritual significance. Full case file: The Bronze Ring Nobody Can Explain (link above)",
+  "tags_csv": "ancient egypt, buto, crocodile mummies, sobek, mummification, egyptian burial, archaeology, satellite discovery, ancient animals, egyptian gods",
+  "pinned_comment": "Were the crocodiles sacrificed to Sobek, or were they part of a ritual to honor water and fertility? The presence of a West African crocodile species suggests a wider ecological range than previously known. Full case file: Filippo Biondi's Pyramid Scan: Aliens or Science? (link above)",
   "end_question": "What do you think?",
   "related_video": {
-   "id": "MPYdONlD6A4",
-   "title": "The Bronze Ring Nobody Can Explain",
-   "url": "https://youtu.be/MPYdONlD6A4"
+   "id": "BDB2DcM3w14",
+   "title": "Filippo Biondi's Pyramid Scan: Aliens or Science?",
+   "url": "https://youtu.be/BDB2DcM3w14"
   },
   "source": {
-   "name": "Smithsonian",
-   "url": "https://www.smithsonianmag.com/smart-news/this-wooden-wardrobe-in-pompeii-remained-sealed-for-nearly-2000-years-archaeologists-just-opened-it-for-the-first-time-180989831/",
-   "headline": "This Wooden Wardrobe in Pompeii Remained Sealed for Nearly 2,000 Years. Archaeologists Just Opened It for the First Time",
-   "published": "2026-11-06 21:13 UTC"
+   "name": "UA.NEWS",
+   "url": "https://ua.news/en/culture/u-egipti-znaishli-pokhovannia-10-mumifikovanikh-krokodiliv-vikom-2500-rokiv",
+   "headline": "A burial site containing 10 mummified crocodiles dating back 2,500 years has been discovered in Egypt",
+   "published": "2026-11-08 19:34 UTC"
   },
-  "duration_s": 50.1,
-  "size_mb": 29.6,
+  "duration_s": 52.1,
+  "size_mb": 37.3,
   "voice": "kokoro-narrator",
   "credits": [
    {
-    "credit": "Photo: Luigi Bazzani / Public domain / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Atrium_interior_in_Pompeii_watercolor_by_Luigi_Bazzani.jpg"
+    "credit": "Photo: Metropolitan Museum of Art, New York / CC0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Stela_Shabaqo_Met.jpg"
    },
    {
-    "credit": "Photo: Wikimedia Commons / CC0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Iron_ring_with_a_figurine_of_a_deity,_iron_-_Museo_Egizio,_Turin_C_6626_p01.jpg"
+    "credit": "Photo: Daderot / CC0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Mummified_crocodile,_Egypt_-_Fitchburg_Art_Museum_-_DSC08599.JPG"
    },
    {
-    "credit": "Photo: Adolphe Bouchet, 1870 / Public domain / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Drawing_of_Fresco_depicting_a_Wine_Wagon_and_Scene_of_Drinkers_by_Adolphe_Bouchet.jpg"
+    "credit": "Photo: Wikimedia Commons / CC BY 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Mummy_of_a_crocodile,_Egypt,_2000-1001_BCE_Wellcome_L0058418.jpg"
    },
    {
-    "credit": "Photo: Jamie Heath from United Kingdom / CC BY-SA 2.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:House_of_the_Orchard_-_Pompeii_Scavi_(49347431292).jpg"
+    "credit": "Photo: Olaf Tausch / CC BY 3.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Kom_Ombo_20.jpg"
+   },
+   {
+    "credit": "Photo: Carlos Maluquer de Motes / CC BY 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Journal.ppat.1009372.g001.png"
    }
   ],
   "visuals": [
-   "photo",
-   "photo",
-   "photo",
-   "photo",
-   "photo",
-   "photo",
    "ai",
-   "photo"
+   "photo",
+   "photo",
+   "photo",
+   "photo",
+   "photo",
+   "ai"
   ],
   "fact_check": [
-   "states 'nearly two millennia' — the article says 'nearly 2,000 years ago', not 'nearly two millennia' (which implies a duration, not a time point)",
-   "claims '38 Nero-era coins' — the article says 'most of the bronze coins date to the time of Nero', not that all 38 are from Nero-era",
-   "claims '20+ amulets' — the article says 'at least two dozen', which is 24 or more; '20+' is less precise and not fully supported",
-   "states 'rodent-infested amphora' — the article says '117 bone fragments likely belonged to field mice', not that the amphora was 'infested'",
-   "claims 'a merchant’s lead weights' — the article says 'a wooden box filled with eight lead weights might have been used by a merchant', not that it definitively belonged to a merchant"
+   "The site dates to around 5th century B.C. near Buto, southern Egypt.",
+   "Five complete bodies and five crocodile heads were found, including a West African species no longer native to Egypt."
   ],
-  "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261107-r12/AncientMachines-Short-20261107.mp4",
-  "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261107-r12",
+  "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261109-r14/AncientMachines-Short-20261109.mp4",
+  "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261109-r14",
   "poster": "poster.jpg",
-  "file": "AncientMachines-Short-20261107.mp4",
+  "file": "AncientMachines-Short-20261109.mp4",
   "model": "Qwen3-4B-Instruct-2507 (local llama.cpp)"
  },
  "archive": [
+  {
+   "date": "2026-11-09",
+   "title": "Crocodiles in Buto's Buried Tomb #Shorts",
+   "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261109-r14",
+   "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261109-r14/AncientMachines-Short-20261109.mp4"
+  },
   {
    "date": "2026-11-07",
    "title": "Pompeii Wardrobe: Sealed for 2,000 Years #Shorts",
