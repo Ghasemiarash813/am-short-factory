@@ -1,129 +1,131 @@
 {
- "date": "2026-11-11",
- "generated_at_utc": "2026-11-11 10:45 UTC",
- "generated_at_tehran": "2026-11-11 14:15",
- "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/43006013656",
+ "date": "2026-11-12",
+ "generated_at_utc": "2026-11-12 10:55 UTC",
+ "generated_at_tehran": "2026-11-12 14:25",
+ "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/43204426934",
  "status": "ok",
  "message": "",
  "candidates": [
   {
-   "title": "1,800-year-old official shipwrecks uncovered beneath Beijing",
-   "source": "HeritageDaily",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdDNOZjVLNFdrZEJjLTJjTXlvdlROcG04dmpzS2N4NWhfalpzNWNPbkRIRjE5YmxYYWY4TTdoa2ljSnNIay1HU05tQ19DQlJ3YUdwSi0yY0Z5VlZfZWlQY25ObUFMVGZJN2o3RWhRdHB5NDd5RnFMaDhnUmtOenhvcWUyU2xSa09qZ2xvR00wTWJDbG42aHZWczg5UUJ5TUxKWEVNT0lNR08?oc=5",
-   "published": "2026-11-10 22:28 UTC",
-   "age_h": 12.3,
+   "title": "2,200-year-old gold bear figurine and surprising number of bones found in massive burial mound in Kazakhstan",
+   "source": "Live Science",
+   "link": "https://www.livescience.com/archaeology/2-200-year-old-gold-bear-figurine-and-surprising-number-of-bones-found-in-massive-burial-mound-in-kazakhstan",
+   "published": "2026-11-11 21:44 UTC",
+   "age_h": 13.2,
    "score": 95,
-   "why": "1,800-year-old official shipwrecks found beneath Beijing — hidden, unexpected, ancient technology/maritime context",
-   "searchable_name": "1800-year-old official shipwrecks Beijing"
+   "why": "Golden bear in Iron Age burial in Kazakhstan — rare, unexpected, and visually striking; challenges assumptions about early Eurasian burial practices",
+   "searchable_name": "2200-year-old golden bear burial Kazakhstan"
   },
   {
-   "title": "An Egyptian villager working near his house discovered the buried remains of two colossal pharaoh statues",
-   "source": "Earth.com",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQel9fNlpxR24yQW9GZ2xCY0U2THJ1WGhLOVNGMEZXc2V0djFoZXZmNE5keUNBaV9HM3dEQmdtYTJ5VHRpNVdIckdGV3RmelpkUWZmckE4WHBlay1INV9NZVIxSXltenNGYy15LWNaOUFLTEQ0b3hSb0d2b282MGhkXzk2MGZxWGhEdkEyZnNPSGlLNTRsMnYyS1VMdXVPbXVIbWRNeGIySjJvMDZhSkJQeWhibmN0TFFDUHF4QlVGN0Q1enkzRTg3UnBrSFlOdS1t?oc=5",
-   "published": "2026-11-11 06:11 UTC",
-   "age_h": 4.6,
+   "title": "Ahead of 300 new homes at Mancot in Flintshire, archaeologists found a 2,000-year-old Romano-British settlement overlooking Chester, with casting moulds and an unusually large group of brooches the inhabitants appear to have made on site",
+   "source": "British Heritage Travel",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE91cXNHUjBvRzVzakROOHYwaXk5TTFhRUktLVkzbmJndHJETGZVaEY5TFJsM05NUUpWMERmN1ZncDZtUkNtTUR5b19RenVNVV9ZUncyRmVJYXRxaHdYSFNvVlAxSkxROXJuWGJYYWRJUGRJNXJLSUY5Vw?oc=5",
+   "published": "2026-11-12 02:47 UTC",
+   "age_h": 8.1,
    "score": 88,
-   "why": "Colossal pharaoh statues discovered by villager — massive, unexpected, visually striking ancient object",
-   "searchable_name": "colossal pharaoh statues Beijing"
+   "why": "Romano-British settlement with casting moulds reveals ancient metalworking — tangible evidence of ancient technology and craftsmanship",
+   "searchable_name": "2000-year-old Romano-British settlement Flintshire"
   },
   {
-   "title": "The Deep History Behind Rob Roy’s Tombstone",
+   "title": "Cannabis Identified in Siberian Scythian Tomb",
    "source": "Archaeology Magazine",
-   "link": "https://archaeology.org/news/2026/11/09/the-deep-history-behind-rob-roys-tombstone/",
-   "published": "2026-11-09 18:30 UTC",
-   "age_h": 40.3,
-   "score": 75,
-   "why": "Rob Roy tombstone reveals deep historical narrative — rare, personal, and ancient inscription",
-   "searchable_name": "Rob Roy tombstone"
+   "link": "https://archaeology.org/news/2026/11/10/cannabis-identified-in-siberian-scythian-tomb/",
+   "published": "2026-11-10 18:00 UTC",
+   "age_h": 40.9,
+   "score": 82,
+   "why": "Cannabis in Siberian Scythian tomb — unexpected use of psychoactive plants in ancient Eurasian culture, with archaeological context",
+   "searchable_name": "Cannabis in Siberian Scythian tomb"
   }
  ],
  "short": {
-  "title": "Ramesses II Statues Found in Egypt #Shorts",
-  "title_plain": "Ramesses II Statues Found in Egypt",
-  "hook": "A 2,000-year-old Ramesses II statue was found in Behbeit El-Hagar.",
+  "title": "Gold Bear Figurine in Kazakh Mound Raises #Shorts",
+  "title_plain": "Gold Bear Figurine in Kazakh Mound Raises",
+  "hook": "A gold bear figurine was found in a Kazakh burial mound dating to the fourth to third centuries B.C.",
   "overlay": [
-   "STATUES OF RAMESSES II",
-   "BENEATH TEMPLE GROUND"
+   "GOLD BEAR",
+   "UNUSUAL BONES IN MOUND"
   ],
   "script": [
-   "A 2,000-year-old Ramesses II statue was found in Behbeit El-Hagar.",
-   "Its head, 5.2 feet tall, wears the Double Crown and bears royal titles.",
-   "Experts estimate the full statue was 28 feet tall, based on proportions.",
-   "A second statue with a preserved face may also depict Ramesses II — not confirmed.",
-   "The site lies near a temple built 850 years later by Nectanebo II.",
-   "The temple’s dark granite structures date to the 3rd century B.C. and collapsed after Ptolemy III.",
-   "Could these statues have once stood guard over the temple?",
+   "A gold bear figurine was found in a Kazakh burial mound dating to the fourth to third centuries B.C.",
+   "It stands on hind legs, holds a pot, and likely fastened to a headdress.",
+   "The site contained an unusually large number of bones, atypical for such a mound in Kazakhstan.",
+   "Experts suspect the mound may have contained four adults and three children.",
+   "Looters left a 10-foot pit and scattered Saka pottery fragments.",
+   "It is unclear which bear species the figurine depicts, though Kazakhstan has two brown bear subspecies in the Tien Shan and Altai regions.",
+   "The article does not address whether the Saka people used bear symbolism in rituals or trade.",
+   "Was the large group burial a ritual practice or a social structure?",
    "Tap the link below for the full case file."
   ],
-  "description": "Two colossal royal statues, possibly of Ramesses II, were discovered in Behbeit El-Hagar, Egypt. One has a confirmed head with the Double Crown and royal titles. Experts estimate the full statue was about 28 feet tall based on proportions. A second statue with a preserved face may also depict Ramesses II, though this has not been confirmed. The site is near a temple built centuries later by Nectanebo II. The ministry has not linked the statues to the temple. Source: Earth.com, https://www.earth.com/science/an-egyptian-farmer-reported-an-inscribed-pink-stone-on-his-land-and-it-led-to-two-statues-of-ramesses-ii/\nFull case file: https://youtu.be/BDB2DcM3w14\nImages: Diego Delso / CC BY-SA 4.0 / Wikimedia Commons; Carole Raddato from FRANKFURT, Germany / CC BY-SA 2.0 / Wikimedia Commons; Wikimedia Commons / CC0 / Wikimedia Commons; Antonio Beato / CC0 / Wikimedia Commons\nSome visuals are AI illustrations.\n#ancientegypt #ramessesii #egypt #Shorts",
+  "description": "A 2,200-year-old gold bear figurine was found in a burial mound at Karagaily, Kazakhstan. The site contained an unusually high number of human bones, possibly from four adults and three children. Such large group burials are atypical for the region. Experts suggest this reflects complex social or ritual practices among the Saka people. The discovery may indicate cultural connections across Eurasia. Source: Live Science, https://www.livescience.com/archaeology/2-200-year-old-gold-bear-figurine-and-surprising-number-of-bones-found-in-massive-burial-mound-in-kazakhstan\nFull case file: https://youtu.be/MPYdONlD6A4\nImages: पाटलिपुत्र / CC BY-SA 4.0 / Wikimedia Commons; Bekmukha TOLGANAY / CC BY-SA 4.0 / Wikimedia Commons\nSome visuals are AI illustrations.\n#archaeology #kazakhstan #Shorts",
   "tags": [
-   "ancient egypt",
-   "ramesses ii",
-   "behbeit el-hagar",
-   "egyptian statues",
-   "giza",
    "archaeology",
-   "egyptian discovery",
-   "pharaohs",
-   "nile delta",
-   "ancient monuments"
+   "kazakhstan",
+   "ancient eurasia",
+   "saka culture",
+   "burial mound",
+   "gold figurine",
+   "early iron age",
+   "human remains",
+   "steppe culture",
+   "ancient rituals"
   ],
-  "tags_csv": "ancient egypt, ramesses ii, behbeit el-hagar, egyptian statues, giza, archaeology, egyptian discovery, pharaohs, nile delta, ancient monuments",
-  "pinned_comment": "Was Ramesses II's statue built to honor a local temple, or was it part of a larger imperial project? The temple at Behbeit El-Hagar was built 850 years after his reign. Full case file: Filippo Biondi's Pyramid Scan: Aliens or Science? (link above)",
+  "tags_csv": "archaeology, kazakhstan, ancient eurasia, saka culture, burial mound, gold figurine, early iron age, human remains, steppe culture, ancient rituals",
+  "pinned_comment": "Was the large group burial a ritual practice or a social structure? The site had over 70 bones, suggesting more than two individuals were buried together. Full case file: The Bronze Ring Nobody Can Explain (link above)",
   "end_question": "What do you think?",
   "related_video": {
-   "id": "BDB2DcM3w14",
-   "title": "Filippo Biondi's Pyramid Scan: Aliens or Science?",
-   "url": "https://youtu.be/BDB2DcM3w14"
+   "id": "MPYdONlD6A4",
+   "title": "The Bronze Ring Nobody Can Explain",
+   "url": "https://youtu.be/MPYdONlD6A4"
   },
   "source": {
-   "name": "Earth.com",
-   "url": "https://www.earth.com/science/an-egyptian-farmer-reported-an-inscribed-pink-stone-on-his-land-and-it-led-to-two-statues-of-ramesses-ii/",
-   "headline": "An Egyptian villager working near his house discovered the buried remains of two colossal pharaoh statues",
-   "published": "2026-11-11 06:11 UTC"
+   "name": "Live Science",
+   "url": "https://www.livescience.com/archaeology/2-200-year-old-gold-bear-figurine-and-surprising-number-of-bones-found-in-massive-burial-mound-in-kazakhstan",
+   "headline": "2,200-year-old gold bear figurine and surprising number of bones found in massive burial mound in Kazakhstan",
+   "published": "2026-11-11 21:44 UTC"
   },
-  "duration_s": 44.3,
-  "size_mb": 27.9,
+  "duration_s": 54.0,
+  "size_mb": 33.9,
   "voice": "kokoro-narrator",
   "credits": [
    {
-    "credit": "Photo: Diego Delso / CC BY-SA 4.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Templo_de_Rams%C3%A9s_II,_Abu_Simbel,_Egipto,_2022-04-02,_DD_03.jpg"
+    "credit": "Photo: पाटलिपुत्र / CC BY-SA 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Human_figurine_number_2,_from_Zhouyuan_in_Fufeng._Western_Zhou_palace_complex_(1045%E2%80%93771_BCE).png"
    },
    {
-    "credit": "Photo: Carole Raddato from FRANKFURT, Germany / CC BY-SA 2.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Digital_reconstruction_of_the_sanctuary_of_Isis,_Ancient_Dion_(7080141713).jpg"
-   },
-   {
-    "credit": "Photo: Wikimedia Commons / CC0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Fragment_of_a_Queen%27s_Face_MET_DP355835.jpg"
-   },
-   {
-    "credit": "Photo: Antonio Beato / CC0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Theban_region,_Temple_Complex_of_Amon_in_Karnak,_19th_century_pictures,_1870-1888,_photo_76_of_91_-_Archivio_fotografico_Museo_Egizio,_Turin_INV04_007.jpg"
+    "credit": "Photo: Bekmukha TOLGANAY / CC BY-SA 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%A8%D0%B5%D0%B4%D0%B5%D0%B2%D1%80_%D0%BE%D1%82_%D0%A2%D0%BE%D0%BB%D2%93%D0%B0%D0%BD%D0%B0%D0%B9_36.jpg"
    }
   ],
   "visuals": [
    "ai",
    "photo",
-   "photo",
+   "ai",
    "photo",
    "ai",
    "photo",
-   "ai"
+   "photo",
+   "photo"
   ],
   "fact_check": [
-   "A 2,000-year-old Ramesses II statue was found in Behbeit El-Hagar. — The article does not state the statue is 2,000 years old; Ramesses II reigned c. 1279–1213 B.C., so the statue is about 3,200 years old. This number is unsupported and inaccurate.",
-   "The temple’s dark granite structures date to the 3rd century B.C. — The article says Nectanebo II built the temple c. 360–343 B.C., not the 3rd century B.C. (which is 200–300 B.C.). While overlapping, the 3rd century B.C. is a general term and not precisely supported. The article specifies Nectanebo II’s reign, not a general 3rd century B.C. date. This is a misrepresentation.",
-   "Could these statues have once stood guard over the temple? — The article does not mention any connection between the statues and the temple, nor any function like guarding. This is speculative and unsupported."
+   "The line 'A 2,200-year-old gold bear figurine was found in a Kazakh burial mound.' fails because the article states the figurine is from a 2,200-year-old burial mound, but does not specify that the bear itself is 2,200 years old. The age is tied to the site, not the artifact directly. The article says 'the figurine dates to the Saka period' and 'preliminary analyses date the recently excavated site to the fourth to third centuries B.C.', which is roughly 2,200 years ago, but the age of the figurine is not explicitly stated as 2,200 years. This is a misattribution of timing.",
+   "The line 'The site contained far more bones than typical for such a mound.' fails because the article says the number of bones is 'unusually large' and 'atypical for Kazakhstan', not just 'far more than typical'. The phrase 'far more' is a stronger claim than the article supports.",
+   "The line 'Experts suspect four adults and three children were buried together.' fails because the article says 'experts suspect that the mound may have been the final resting place for four adults and three children' — this is a possibility, not a confirmed conclusion. The narration presents it as certain, which the article does not state.",
+   "The line 'The bear may represent a local brown bear subspecies from the Tien Shan or Altai.' fails because the article states 'It’s unclear which bear species the figurine depicts', and only notes that Kazakhstan has those two subspecies. The narration implies the bear represents one of them, which is unsupported. The article does not link the figurine to a specific bear subspecies.",
+   "The line 'Did the Saka people honor bear symbolism in their rituals or just use it for trade?' is speculative and not supported by the article. The article does not discuss ritual symbolism or trade use of bear imagery. This line introduces a question not addressed in the source."
   ],
-  "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261111-r16/AncientMachines-Short-20261111.mp4",
-  "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261111-r16",
+  "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261112-r17/AncientMachines-Short-20261112.mp4",
+  "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261112-r17",
   "poster": "poster.jpg",
-  "file": "AncientMachines-Short-20261111.mp4",
+  "file": "AncientMachines-Short-20261112.mp4",
   "model": "Qwen3-4B-Instruct-2507 (local llama.cpp)"
  },
  "archive": [
+  {
+   "date": "2026-11-12",
+   "title": "Gold Bear Figurine in Kazakh Mound Raises #Shorts",
+   "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261112-r17",
+   "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261112-r17/AncientMachines-Short-20261112.mp4"
+  },
   {
    "date": "2026-11-11",
    "title": "Ramesses II Statues Found in Egypt #Shorts",
