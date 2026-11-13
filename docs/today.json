@@ -1,76 +1,75 @@
 {
- "date": "2026-11-12",
- "generated_at_utc": "2026-11-12 10:55 UTC",
- "generated_at_tehran": "2026-11-12 14:25",
- "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/43204426934",
+ "date": "2026-11-13",
+ "generated_at_utc": "2026-11-13 10:52 UTC",
+ "generated_at_tehran": "2026-11-13 14:22",
+ "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/43412194960",
  "status": "ok",
  "message": "",
  "candidates": [
   {
-   "title": "2,200-year-old gold bear figurine and surprising number of bones found in massive burial mound in Kazakhstan",
+   "title": "125,000-year-old poisoned stone points discovered on shore of ancient lake in Saudi Arabia",
    "source": "Live Science",
-   "link": "https://www.livescience.com/archaeology/2-200-year-old-gold-bear-figurine-and-surprising-number-of-bones-found-in-massive-burial-mound-in-kazakhstan",
-   "published": "2026-11-11 21:44 UTC",
-   "age_h": 13.2,
+   "link": "https://www.livescience.com/archaeology/middle-east/125-000-year-old-poisoned-stone-points-discovered-on-shore-of-ancient-lake-in-saudi-arabia",
+   "published": "2026-11-12 19:00 UTC",
+   "age_h": 15.9,
    "score": 95,
-   "why": "Golden bear in Iron Age burial in Kazakhstan — rare, unexpected, and visually striking; challenges assumptions about early Eurasian burial practices",
-   "searchable_name": "2200-year-old golden bear burial Kazakhstan"
+   "why": "Poisoned 125k-year-old hunting tools in Arabia show advanced ancient tech; rare, credible, not already covered",
+   "searchable_name": "Poisoned stone points Saudi Arabia"
   },
   {
-   "title": "Ahead of 300 new homes at Mancot in Flintshire, archaeologists found a 2,000-year-old Romano-British settlement overlooking Chester, with casting moulds and an unusually large group of brooches the inhabitants appear to have made on site",
-   "source": "British Heritage Travel",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE91cXNHUjBvRzVzakROOHYwaXk5TTFhRUktLVkzbmJndHJETGZVaEY5TFJsM05NUUpWMERmN1ZncDZtUkNtTUR5b19RenVNVV9ZUncyRmVJYXRxaHdYSFNvVlAxSkxROXJuWGJYYWRJUGRJNXJLSUY5Vw?oc=5",
-   "published": "2026-11-12 02:47 UTC",
-   "age_h": 8.1,
+   "title": "Designed to Be Unsinkable, the World's Fastest Ocean Liner Finally Hits the Ocean Floor. The 53,330-Ton S.S. 'United States' Is Now the World's Largest Artificial Reef",
+   "source": "Smithsonian",
+   "link": "https://www.smithsonianmag.com/smart-news/designed-to-be-unsinkable-the-worlds-fastest-ocean-liner-finally-hits-the-ocean-floor-the-53330-ton-ss-united-states-is-now-the-worlds-largest-artificial-reef-180989866/",
+   "published": "2026-11-12 18:51 UTC",
+   "age_h": 16.0,
    "score": 88,
-   "why": "Romano-British settlement with casting moulds reveals ancient metalworking — tangible evidence of ancient technology and craftsmanship",
-   "searchable_name": "2000-year-old Romano-British settlement Flintshire"
+   "why": "S.S. 'United States' shipwreck reveals ancient maritime engineering; massive object, visual, real discovery",
+   "searchable_name": "SS United States shipwreck"
   },
   {
-   "title": "Cannabis Identified in Siberian Scythian Tomb",
+   "title": "Remains of Two Infant Girls Found in Peruvian Nazca Cemetery",
    "source": "Archaeology Magazine",
-   "link": "https://archaeology.org/news/2026/11/10/cannabis-identified-in-siberian-scythian-tomb/",
-   "published": "2026-11-10 18:00 UTC",
-   "age_h": 40.9,
-   "score": 82,
-   "why": "Cannabis in Siberian Scythian tomb — unexpected use of psychoactive plants in ancient Eurasian culture, with archaeological context",
-   "searchable_name": "Cannabis in Siberian Scythian tomb"
+   "link": "https://archaeology.org/news/2026/11/12/remains-of-two-infant-girls-found-in-peruvian-nazca-cemetery/",
+   "published": "2026-11-12 18:30 UTC",
+   "age_h": 16.4,
+   "score": 85,
+   "why": "Infant girls in Nazca cemetery with cyclopia; rare medical insight in ancient context",
+   "searchable_name": "Nazca infant girls cemetery"
   }
  ],
  "short": {
-  "title": "Gold Bear Figurine in Kazakh Mound Raises #Shorts",
-  "title_plain": "Gold Bear Figurine in Kazakh Mound Raises",
-  "hook": "A gold bear figurine was found in a Kazakh burial mound dating to the fourth to third centuries B.C.",
+  "title": "125,000-Year-Old Poisoned Stone Points Found in #Shorts",
+  "title_plain": "125,000-Year-Old Poisoned Stone Points Found in",
+  "hook": "125,000-year-old stone points found at Uruq Aljelibah lake shore in Saudi Arabia.",
   "overlay": [
-   "GOLD BEAR",
-   "UNUSUAL BONES IN MOUND"
+   "POISONED STONE POINTS",
+   "ANCIENT LAKE SHORE"
   ],
   "script": [
-   "A gold bear figurine was found in a Kazakh burial mound dating to the fourth to third centuries B.C.",
-   "It stands on hind legs, holds a pot, and likely fastened to a headdress.",
-   "The site contained an unusually large number of bones, atypical for such a mound in Kazakhstan.",
-   "Experts suspect the mound may have contained four adults and three children.",
-   "Looters left a 10-foot pit and scattered Saka pottery fragments.",
-   "It is unclear which bear species the figurine depicts, though Kazakhstan has two brown bear subspecies in the Tien Shan and Altai regions.",
-   "The article does not address whether the Saka people used bear symbolism in rituals or trade.",
-   "Was the large group burial a ritual practice or a social structure?",
+   "125,000-year-old stone points found at Uruq Aljelibah lake shore in Saudi Arabia.",
+   "They show traces of poison from Acokanthera schimperi, a tree used historically in Africa and Arabia.",
+   "The tools were likely used to hunt hippos, buffalo and ostriches in a once-freshwater lake ecosystem.",
+   "Animal bones and stone tools cluster together, suggesting a focused hunting site with complex tool use.",
+   "Researchers say the poison may have been applied to tips, but how it was prepared or if it worked remains unclear.",
+   "The site may belong to early modern humans, not Neanderthals, though no human remains were found.",
+   "Did early humans use poisoned stone points to hunt megafauna, or did they just use them for intimidation?",
    "Tap the link below for the full case file."
   ],
-  "description": "A 2,200-year-old gold bear figurine was found in a burial mound at Karagaily, Kazakhstan. The site contained an unusually high number of human bones, possibly from four adults and three children. Such large group burials are atypical for the region. Experts suggest this reflects complex social or ritual practices among the Saka people. The discovery may indicate cultural connections across Eurasia. Source: Live Science, https://www.livescience.com/archaeology/2-200-year-old-gold-bear-figurine-and-surprising-number-of-bones-found-in-massive-burial-mound-in-kazakhstan\nFull case file: https://youtu.be/MPYdONlD6A4\nImages: पाटलिपुत्र / CC BY-SA 4.0 / Wikimedia Commons; Bekmukha TOLGANAY / CC BY-SA 4.0 / Wikimedia Commons\nSome visuals are AI illustrations.\n#archaeology #kazakhstan #Shorts",
+  "description": "At a 125,000-year-old site in southern Saudi Arabia known as Uruq Aljelibah, archaeologists found stone tools with traces of poison from Acokanthera schimperi. The tools were likely used to hunt large animals like hippos and buffalo in a former freshwater lake. The close clustering of tools and bones suggests intentional hunting activity. Researchers note the poison's preparation and effectiveness remain uncertain. The site may have been used by early modern humans, though no human remains were discovered. This site adds to evidence of complex tool use in early human societies. Source: Live Science, https://www.livescience.com/archaeology/middle-east/125-000-year-old-poisoned-stone-points-discovered-on-shore-of-ancient-lake-in-saudi-arabia\nFull case file: https://youtu.be/MPYdONlD6A4\nImages: ChriKo / CC BY-SA 4.0 / Wikimedia Commons; David Roberts / Public domain / Wikimedia Commons; No machine-readable author provided. Hmo / Public domain / Wikimedia Commons; Salisbury and South Wiltshire Museum, Ri / CC BY-SA 4.0 / Wikimedia Commons; unknown Amharic scribes / Public domain / Wikimedia Commons\nSome visuals are AI illustrations.\n#archaeology #saudiarabia #ancienttools #Shorts",
   "tags": [
-   "archaeology",
-   "kazakhstan",
-   "ancient eurasia",
-   "saka culture",
-   "burial mound",
-   "gold figurine",
-   "early iron age",
-   "human remains",
-   "steppe culture",
-   "ancient rituals"
+   "ancient archaeology",
+   "saudi arabia",
+   "paleolithic tools",
+   "poisoned weapons",
+   "early humans",
+   "Uruq Aljelibah",
+   "megafauna hunting",
+   "Arabian desert",
+   "stone points",
+   "Acokanthera schimperi"
   ],
-  "tags_csv": "archaeology, kazakhstan, ancient eurasia, saka culture, burial mound, gold figurine, early iron age, human remains, steppe culture, ancient rituals",
-  "pinned_comment": "Was the large group burial a ritual practice or a social structure? The site had over 70 bones, suggesting more than two individuals were buried together. Full case file: The Bronze Ring Nobody Can Explain (link above)",
+  "tags_csv": "ancient archaeology, saudi arabia, paleolithic tools, poisoned weapons, early humans, Uruq Aljelibah, megafauna hunting, Arabian desert, stone points, Acokanthera schimperi",
+  "pinned_comment": "Did early humans use poisoned stone points to hunt megafauna, or did they just use them for intimidation? The poison traces suggest intentional use, but the exact preparation method remains unknown. Full case file: The Bronze Ring Nobody Can Explain (link above)",
   "end_question": "What do you think?",
   "related_video": {
    "id": "MPYdONlD6A4",
@@ -79,47 +78,63 @@
   },
   "source": {
    "name": "Live Science",
-   "url": "https://www.livescience.com/archaeology/2-200-year-old-gold-bear-figurine-and-surprising-number-of-bones-found-in-massive-burial-mound-in-kazakhstan",
-   "headline": "2,200-year-old gold bear figurine and surprising number of bones found in massive burial mound in Kazakhstan",
-   "published": "2026-11-11 21:44 UTC"
+   "url": "https://www.livescience.com/archaeology/middle-east/125-000-year-old-poisoned-stone-points-discovered-on-shore-of-ancient-lake-in-saudi-arabia",
+   "headline": "125,000-year-old poisoned stone points discovered on shore of ancient lake in Saudi Arabia",
+   "published": "2026-11-12 19:00 UTC"
   },
-  "duration_s": 54.0,
-  "size_mb": 33.9,
+  "duration_s": 55.2,
+  "size_mb": 33.7,
   "voice": "kokoro-narrator",
   "credits": [
    {
-    "credit": "Photo: पाटलिपुत्र / CC BY-SA 4.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Human_figurine_number_2,_from_Zhouyuan_in_Fufeng._Western_Zhou_palace_complex_(1045%E2%80%93771_BCE).png"
+    "credit": "Photo: ChriKo / CC BY-SA 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Acokanthera_schimperi_flowers.jpg"
    },
    {
-    "credit": "Photo: Bekmukha TOLGANAY / CC BY-SA 4.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:%D0%A8%D0%B5%D0%B4%D0%B5%D0%B2%D1%80_%D0%BE%D1%82_%D0%A2%D0%BE%D0%BB%D2%93%D0%B0%D0%BD%D0%B0%D0%B9_36.jpg"
+    "credit": "Photo: David Roberts / Public domain / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Town_of_Tiberias_looking_towards_Lebanon._David_Roberts._1855.jpg"
+   },
+   {
+    "credit": "Photo: No machine-readable author provided. Hmo / Public domain / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Punta_Clovis_Nicaragua.JPG"
+   },
+   {
+    "credit": "Photo: Salisbury and South Wiltshire Museum, Ri / CC BY-SA 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Bronze_Age_torc_with_rings_(FindID_538672).jpg"
+   },
+   {
+    "credit": "Photo: unknown Amharic scribes / Public domain / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Illuminated_Gospel_late_14th%E2%80%93early_15th_century_Amhara_peoples.jpeg"
    }
   ],
   "visuals": [
    "ai",
    "photo",
-   "ai",
-   "photo",
-   "ai",
    "photo",
    "photo",
-   "photo"
+   "photo",
+   "photo",
+   "ai"
   ],
   "fact_check": [
-   "The line 'A 2,200-year-old gold bear figurine was found in a Kazakh burial mound.' fails because the article states the figurine is from a 2,200-year-old burial mound, but does not specify that the bear itself is 2,200 years old. The age is tied to the site, not the artifact directly. The article says 'the figurine dates to the Saka period' and 'preliminary analyses date the recently excavated site to the fourth to third centuries B.C.', which is roughly 2,200 years ago, but the age of the figurine is not explicitly stated as 2,200 years. This is a misattribution of timing.",
-   "The line 'The site contained far more bones than typical for such a mound.' fails because the article says the number of bones is 'unusually large' and 'atypical for Kazakhstan', not just 'far more than typical'. The phrase 'far more' is a stronger claim than the article supports.",
-   "The line 'Experts suspect four adults and three children were buried together.' fails because the article says 'experts suspect that the mound may have been the final resting place for four adults and three children' — this is a possibility, not a confirmed conclusion. The narration presents it as certain, which the article does not state.",
-   "The line 'The bear may represent a local brown bear subspecies from the Tien Shan or Altai.' fails because the article states 'It’s unclear which bear species the figurine depicts', and only notes that Kazakhstan has those two subspecies. The narration implies the bear represents one of them, which is unsupported. The article does not link the figurine to a specific bear subspecies.",
-   "The line 'Did the Saka people honor bear symbolism in their rituals or just use it for trade?' is speculative and not supported by the article. The article does not discuss ritual symbolism or trade use of bear imagery. This line introduces a question not addressed in the source."
+   "drops the hedge 'may' from 'the site may belong to early modern humans'",
+   "claims 'used to hunt hippos, buffalo and ostriches' without article support — article says 'likely exploited for food' and 'hunting large animals', not specific species",
+   "states 'poison from Acokanthera schimperi' without hedging — article says 'chemical residues linked with the arrow poison tree (Acokanthera schimperi)', not confirmed as poison",
+   "claims 'how it was prepared or if it worked remains unclear' — article says 'we haven't demonstrated exactly how the poison was prepared or whether it was effective' — this is supported, but the narration drops the hedge 'we haven't demonstrated' and uses stronger phrasing"
   ],
-  "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261112-r17/AncientMachines-Short-20261112.mp4",
-  "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261112-r17",
+  "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261113-r18/AncientMachines-Short-20261113.mp4",
+  "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261113-r18",
   "poster": "poster.jpg",
-  "file": "AncientMachines-Short-20261112.mp4",
+  "file": "AncientMachines-Short-20261113.mp4",
   "model": "Qwen3-4B-Instruct-2507 (local llama.cpp)"
  },
  "archive": [
+  {
+   "date": "2026-11-13",
+   "title": "125,000-Year-Old Poisoned Stone Points Found in #Shorts",
+   "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261113-r18",
+   "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261113-r18/AncientMachines-Short-20261113.mp4"
+  },
   {
    "date": "2026-11-12",
    "title": "Gold Bear Figurine in Kazakh Mound Raises #Shorts",
