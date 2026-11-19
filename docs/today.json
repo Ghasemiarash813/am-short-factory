@@ -1,114 +1,101 @@
 {
- "date": "2026-11-18",
- "generated_at_utc": "2026-11-18 11:31 UTC",
- "generated_at_tehran": "2026-11-18 15:01",
- "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/44295083524",
+ "date": "2026-11-19",
+ "generated_at_utc": "2026-11-19 11:30 UTC",
+ "generated_at_tehran": "2026-11-19 15:00",
+ "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/44515052809",
  "status": "ok",
  "message": "",
  "candidates": [
   {
-   "title": "Ancient Roman closet found untouched for nearly 2,000 years with personal belongings still inside",
-   "source": "FOX Weather",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaktQOXVIa2xDN0YtOFBSbUlSc1JqS21RV3c4cTUtazFUX1pYUmZtWFZHRVQ1dVdyYUhiLUNGVDEzNWJ0dlEzbmpvUC1COTh4aWR5clVJR1FZUGZITi1pSVk5QTdUOHZUbTBFbWoyUUQwdmtva2IxdFp5bUpFdngxaFlXWnBrb2l1TkU00gGQAUFVX3lxTE9pMkxjOW5EMWNSdDByQ1YyNHExMkJrY3FiRWJiX3cxZUVnSDBuVXMxSktmWGlXX0xBeDdDX2tUZzJ1T216Qk9GSVpORzdLbDZHdWNIdHFYaGs1Tnh0MkdHcmRQbVBXV3NfcFFEd2twV3g3aWo1YmlJN25CTHRzTjhndDVfU2hNQ1prUnczcHhJTQ?oc=5",
-   "published": "2026-11-18 00:56 UTC",
-   "age_h": 10.6,
+   "title": "2,000-year-old tomb of an elite nomad in Mongolia contained a Roman glass cup and Han-dynasty-inspired jade decorations",
+   "source": "Live Science",
+   "link": "https://www.livescience.com/archaeology/2-000-year-old-tomb-of-an-elite-nomad-in-mongolia-contained-a-roman-glass-cup-and-han-dynasty-inspired-jade-decorations",
+   "published": "2026-11-18 11:30 UTC",
+   "age_h": 24.0,
    "score": 95,
-   "why": "Ancient Roman artifact with personal belongings, untouched for 2000 years; clear visual object, real evidence, fits ancient tech/life themes",
-   "searchable_name": "Ancient Roman closet"
+   "why": "Ancient tomb with Roman glass cup and Han dynasty jade in Xiongnu burial — unexpected cultural fusion in 2000-year-old Mongolia",
+   "searchable_name": "2000-year-old Xiongnu tomb with Roman glass cup and Han jade"
   },
   {
-   "title": "Archaeologists uncover medieval cathedral floor in northern Sudan",
-   "source": "Africanews",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY1dJWWFPa0VLWWFZM2lab1Y1NnZwRFd2NVpIYWVIZzhkelB2bERfbEJXYnhPT1lyRldHZUxHZm9pcENCaGFoVU4ycndEcUpTbWt4ZFZTSGZYZ3FsLXBvc0JHLXFqZjlraXBEdmo2TTQzT1ptdVpPVFpNdnJkVXNsTXpoOVh6MnpmaTA0SXN4dWtkUGVHbm1zVUd3cEhhY1VOdzRCZkVzWWxYUzN10gGsAUFVX3lxTE5jV0lZYU9rRUtZYVkzaVpvVjU2dnBEV3Y1WkhhZUhnOGR6UHZsRF9sQldieE9PWXJGV0dlTEdmb2lwQ0JoYWhVTjJyd0RxSlNta3hkVlNIZlhncWwtcG9zQkctcWpmOWtpcER2ajZNNDNPWm11Wk9UWk12cmRVc2xNemg5WHoyemZpMDRJc3h1a2RQZUdubXNVR3dwSGFjVU53NEJmRXNZbFhTM3U?oc=5",
-   "published": "2026-11-18 09:57 UTC",
-   "age_h": 1.6,
+   "title": "2,000-Year-Old Nubian Jar Contains Traces of Drugs Similar to Those Described in Homer’s Odyssey",
+   "source": "GreekReporter.com",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPY05EX3hOendhMFIxZktGUzZfeTJ2VUN1V2Ywcy1ieWJNVjJYd3I1amVaUXBSWUxRR0duQXp1TGNYLWVYQUtadHhKVkhzMDBWNEM3cVRsWHM0a2dMSTBKZjF2UVZKT0ZNeWU4WUhxQ0hLSkdWYXRwQjVLOUZTNjVBYjFn?oc=5",
+   "published": "2026-11-19 02:01 UTC",
+   "age_h": 9.5,
    "score": 88,
-   "why": "Medieval cathedral floor in Sudan — massive, unexpected, and visually striking; credible source, real discovery",
-   "searchable_name": "Medieval cathedral floor Sudan"
+   "why": "2000-year-old Nubian jar shows drugs matching Homer’s Odyssey — ancient pharmacology links to epic literature",
+   "searchable_name": "2000-year-old Nubian jar with drugs similar to Homer's Odyssey"
   },
   {
-   "title": "New Anglo-Saxon Grave Found at Sutton Hoo Beyond the Royal Mounds",
-   "source": "Arkeonews",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZE1wYlVOT2VzenIwa2o0Rjk3V3JSM2w2RWZYbGk0SG5sSFE3aVlVcmV1STlGTEp5YTJ2VWJoVVpuX3JNTXVkdkgyS0tBRzFscjNabFlhdmg0T054dVZmZlRKU1BacXZ4U1M1a0FqNTFuQWk4UXFSVWE5TUJNWlhqWGxfeE1sSG9SRUNxT0pQb2FPZw?oc=5",
-   "published": "2026-11-18 08:27 UTC",
-   "age_h": 3.1,
-   "score": 85,
-   "why": "New Anglo-Saxon grave at Sutton Hoo — renowned site, adds to known mysteries, tangible and searchable",
-   "searchable_name": "Sutton Hoo Anglo-Saxon grave"
+   "title": "Ancient late period, Ptolemaic, early Roman necropolis uncovered in Menoufia",
+   "source": "Egypt Independent",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc3QyUklnVDJKdWdIaGRSQ1hlallhNUxHaVNOcngydnMtNGJDeUYxT1dOVTVlSlFhdERONUZfcXZIRlZyUzcwTWFBa0xiampaQUlac2duZUNUY1RrdTB4OEV3SU9LaTFfU3VQbnE2NkhjMFFjeUhKOVF5bWdmYXllbHFHQnJ6QV9zYVRRS1ZwTGpHZWFSYThBbnQzMWFPXzhnOThfVWdoTFBOQ3Nt?oc=5",
+   "published": "2026-11-19 10:47 UTC",
+   "age_h": 0.7,
+   "score": 82,
+   "why": "Late Ptolemaic/early Roman necropolis uncovered in Menoufia — new urban layer in Egypt's ancient burial landscape",
+   "searchable_name": "Ptolemaic-Roman necropolis in Menoufia Egypt"
   }
  ],
  "short": {
-  "title": "Pompeii Closet: Personal Belongings Found Unmoved #Shorts",
-  "title_plain": "Pompeii Closet: Personal Belongings Found Unmoved",
-  "hook": "A closet from a 2,000-year-old Roman home was found in Pompeii.",
+  "title": "Xiongnu Tomb: Roman Glass in Mongolia? #Shorts",
+  "title_plain": "Xiongnu Tomb: Roman Glass in Mongolia?",
+  "hook": "A 2,000-year-old Xiongnu tomb in Mongolia held a Roman glass cup and Han-style jade discs",
   "overlay": [
-   "CLOSET",
-   "UNTOUCHED FOR 2,000 YE"
+   "XIONGNU TOMB",
+   "ROMAN GLASS?"
   ],
   "script": [
-   "A closet from a 2,000-year-old Roman home was found in Pompeii.",
-   "It held balsam jars, incense burners, and a faience necklace with crystal and bone.",
-   "Coins in a plant container suggest the owners may not have had time to recover valuables.",
-   "The necklace may have been used as a protective charm for adults too.",
-   "Artists crafted the marble seat with intricate detail, showing Roman craftsmanship.",
-   "Some residents stayed behind, hiding in cellars as ash buried the city.",
-   "Did Romans truly preserve memories—or just possessions?",
+   "A 2,000-year-old Xiongnu tomb in Mongolia held a Roman glass cup and Han-style jade discs",
+   "Its nine stone layers stretch 240 feet—larger than the Great Sphinx",
+   "Jade 'bi' discs show Han influence, but with unique, irregular designs",
+   "A quartz-inlaid silver horse ornament and wooden carriage hint at elite status",
+   "The tomb's size and artifacts reveal deep Eurasian trade links from China to Rome",
+   "DNA analysis of coffin remains may identify the occupant and their lineage",
+   "Did the Xiongnu blend Han and Roman customs to signal power and status?",
    "Tap the link below for the full case file."
   ],
-  "description": "A closet in a Pompeii home, buried by the 79 AD Vesuvius eruption, contained personal belongings like cosmetics, coins, and a faience necklace. Experts believe the owners fled quickly, leaving items behind. The presence of coins and decorative objects suggests emotional attachment to personal possessions. These finds reflect daily Roman life and memory preservation. Source: FOX Weather, https://www.foxweather.com/learn/ancient-roman-closet-untouched-personal-belongings\nFull case file: https://youtu.be/MPYdONlD6A4\nImages: Gary Todd from Xinzheng, China / Public domain / Wikimedia Commons; Wikimedia Commons / CC0 / Wikimedia Commons; MumblerJamie / CC BY-SA 2.0 / Wikimedia Commons; Anonymous (Egypt)Unknown author / Public domain / Wikimedia Commons; Wmpearl / Public domain / Wikimedia Commons; Birmingham Museums Trust, Peter Reavill, / CC BY-SA 2.0 / Wikimedia Commons\n#archaeology #pompeii #ancientrome #Shorts",
+  "description": "A 2,000-year-old Xiongnu tomb in Mongolia contained a Roman glass cup and Han-inspired jade decorations. The tomb, part of a large burial complex, shows trade links between Central Asia, China, and the Roman Empire. The jade discs are irregular and engraved, suggesting adaptation of Han burial customs. The Roman glass cup’s origin is uncertain and requires further testing. Source: Live Science, https://www.livescience.com/archaeology/2-000-year-old-tomb-of-an-elite-nomad-in-mongolia-contained-a-roman-glass-cup-and-han-dynasty-inspired-jade-decorations\nFull case file: https://youtu.be/BDB2DcM3w14\nImages: Gary Todd / CC0 / Wikimedia Commons; Didier Descouens / Public domain / Wikimedia Commons; Omer Farooq / CC BY-SA 3.0 / Wikimedia Commons\nSome visuals are AI illustrations.\n#archaeology #mongolia #shorts #Shorts",
   "tags": [
-   "pompeii",
-   "ancient roman",
+   "ancient mongolia",
+   "xiongnu empire",
+   "roman glass cup",
+   "han dynasty jade",
+   "eurasian trade",
    "archaeology",
-   "daily life",
-   "vesuvius",
-   "personal belongings",
-   "rome",
-   "ancient italy",
-   "house ruins",
-   "faience"
+   "nomadic tombs",
+   "central asia",
+   "mongolian burial"
   ],
-  "tags_csv": "pompeii, ancient roman, archaeology, daily life, vesuvius, personal belongings, rome, ancient italy, house ruins, faience",
-  "pinned_comment": "Adults kept deities' necklaces for protection — was this a common practice? Yes, faience necklaces were used to represent gods like Bes and Mercury. Full case file: The Bronze Ring Nobody Can Explain (link above)",
+  "tags_csv": "ancient mongolia, xiongnu empire, roman glass cup, han dynasty jade, eurasian trade, archaeology, nomadic tombs, central asia, mongolian burial",
+  "pinned_comment": "Was the Roman glass cup traded through Central Asia? Or did the Xiongnu have direct contact with Roman artisans? Full case file: Filippo Biondi's Pyramid Scan: Aliens or Science? (link above)",
   "end_question": "What do you think?",
   "related_video": {
-   "id": "MPYdONlD6A4",
-   "title": "The Bronze Ring Nobody Can Explain",
-   "url": "https://youtu.be/MPYdONlD6A4"
+   "id": "BDB2DcM3w14",
+   "title": "Filippo Biondi's Pyramid Scan: Aliens or Science?",
+   "url": "https://youtu.be/BDB2DcM3w14"
   },
   "source": {
-   "name": "FOX Weather",
-   "url": "https://www.foxweather.com/learn/ancient-roman-closet-untouched-personal-belongings",
-   "headline": "Ancient Roman closet found untouched for nearly 2,000 years with personal belongings still inside",
-   "published": "2026-11-18 00:56 UTC"
+   "name": "Live Science",
+   "url": "https://www.livescience.com/archaeology/2-000-year-old-tomb-of-an-elite-nomad-in-mongolia-contained-a-roman-glass-cup-and-han-dynasty-inspired-jade-decorations",
+   "headline": "2,000-year-old tomb of an elite nomad in Mongolia contained a Roman glass cup and Han-dynasty-inspired jade decorations",
+   "published": "2026-11-18 11:30 UTC"
   },
-  "duration_s": 39.1,
-  "size_mb": 26.3,
+  "duration_s": 42.8,
+  "size_mb": 34.8,
   "voice": "kokoro-narrator",
   "credits": [
    {
-    "credit": "Photo: Gary Todd from Xinzheng, China / Public domain / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Pompeii_Ruins_Villa_of_the_Mysteries_(48445481586).jpg"
+    "credit": "Photo: Gary Todd / CC0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Felt_Rugs_%26_Embroideries_of_the_Xiongnu_(35543022402).jpg"
    },
    {
-    "credit": "Photo: Wikimedia Commons / CC0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Necklace-saam_1929.8.183.9.jpg"
+    "credit": "Photo: Didier Descouens / Public domain / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:(Toulouse)_Objet_rituel_bi_-_Periode_Han_-_Mus%C3%A9e_Labit.jpg"
    },
    {
-    "credit": "Photo: MumblerJamie / CC BY-SA 2.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Goods_from_Across_the_Mediterranean_-_Pompeii_Antiquarium.jpg"
-   },
-   {
-    "credit": "Photo: Anonymous (Egypt)Unknown author / Public domain / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Egyptian_-_Amulet_of_Pataikos_on_Crocodiles_-_Walters_481602.jpg"
-   },
-   {
-    "credit": "Photo: Wmpearl / Public domain / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Marble_table_from_Pompeii.JPG"
-   },
-   {
-    "credit": "Photo: Birmingham Museums Trust, Peter Reavill, / CC BY-SA 2.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Roman,_Annular_Brooch_(FindID_524323-473606).jpg"
+    "credit": "Photo: Omer Farooq / CC BY-SA 3.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Silk_Route_by_the_side_of_Indus_River.jpg"
    }
   ],
   "visuals": [
@@ -118,20 +105,22 @@
    "photo",
    "photo",
    "photo",
-   "photo"
+   "ai"
   ],
-  "fact_check": [
-   "A 2,000-year-old Roman closet was found untouched in Pompeii.",
-   "Coins in a plant container suggest owners fled quickly, leaving valuables behind.",
-   "The necklace may have been a child’s toy or protective charm for adults too."
-  ],
-  "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261118-r23/AncientMachines-Short-20261118.mp4",
-  "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261118-r23",
+  "fact_check": [],
+  "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261119-r24/AncientMachines-Short-20261119.mp4",
+  "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261119-r24",
   "poster": "poster.jpg",
-  "file": "AncientMachines-Short-20261118.mp4",
+  "file": "AncientMachines-Short-20261119.mp4",
   "model": "Qwen3-4B-Instruct-2507 (local llama.cpp)"
  },
  "archive": [
+  {
+   "date": "2026-11-19",
+   "title": "Xiongnu Tomb: Roman Glass in Mongolia? #Shorts",
+   "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261119-r24",
+   "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261119-r24/AncientMachines-Short-20261119.mp4"
+  },
   {
    "date": "2026-11-18",
    "title": "Pompeii Closet: Personal Belongings Found Unmoved #Shorts",
@@ -209,12 +198,6 @@
    "title": "400-Year-Old Ship Lock Unlocked with Code ANCE #Shorts",
    "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261105-r10",
    "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261105-r10/AncientMachines-Short-20261105.mp4"
-  },
-  {
-   "date": "2026-11-04",
-   "title": "Buto: 2600-Year-Old Complex Found Beneath City #Shorts",
-   "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261104-r9",
-   "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261104-r9/AncientMachines-Short-20261104.mp4"
   }
  ],
  "llm_calls": 4,
