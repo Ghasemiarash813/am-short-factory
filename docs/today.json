@@ -1,118 +1,104 @@
 {
- "date": "2026-11-22",
- "generated_at_utc": "2026-11-22 11:07 UTC",
- "generated_at_tehran": "2026-11-22 14:37",
- "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/45015611418",
+ "date": "2026-11-23",
+ "generated_at_utc": "2026-11-23 12:18 UTC",
+ "generated_at_tehran": "2026-11-23 15:48",
+ "run_url": "https://github.com/Ghasemiarash813/am-short-factory/actions/runs/45172418804",
  "status": "ok",
  "message": "",
  "candidates": [
   {
-   "title": "Unexpectedly, an exquisite bronze gear was found in the tomb of Emperor Wen of Han.",
-   "source": "Vietnam.vn",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRlh5TjFmSmxQMklrRXp4Y2l6d21xZk81Um95TUkxZldSRjJ5T2VhZzZQeExJUFZtMEVESnI1c29yT29GS1VNbnFvZlVxUUtXNDUyVElzRVNJVWVTRFROcXZ1NUNVTmNqcU5IVVdPZk5uc0Vkd3BySWx5VFNfNkNTTU9oSjBGWVpfLUE?oc=5",
-   "published": "2026-11-22 03:50 UTC",
-   "age_h": 7.3,
-   "score": 95,
-   "why": "Exquisite bronze gear in Han tomb defies expectations of ancient tech; rare, mechanical, and searchable",
-   "searchable_name": "bronze gear Emperor Wen of Han tomb"
-  },
-  {
-   "title": "Archaeologists found 70 hair extensions on a 3,300-year-old Egyptian woman; her elaborate hairstyle may h",
-   "source": "The Times of India",
-   "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQdDhCTjd3bWRiSlA0Z2QxblVSRXpVSHdyRnBCWUI2Z1hFUDlSLWRnRWZVNHRCczdabDZmV2huSWVJcE9BQ3hkazF2TDRXUlIwNEVKV2lnbUFxZDZwc2NsU1NhQnlMNTVNRG1PRnlZN1RwSTk4dDJyaDh2bDl5SU4xTk12VkpCTTBvSWlVa2J0bThBYXZBejQ4VndzNVQxY1FFSC1jeXdJb0VhcU1Kb3RLWDdLSUt5Q0J5TEJydkpsc3E3OVVnRjktcVdIN0hvMjNjdjJVSmZ1UUN4bFJwd2RnWDY2ZXZyYWtKY0gwcVRWaGY4MWlxaDBYeHhkSnVfR3UxQWN5R2tNM3F4d2FlbGpjTEVVSlFtbTFfbkdocEVmN1hhYmRfRkE2eVJoaVBJQ3hwdzFPeXN1SzdFQdIBvwJBVV95cUxQYzg4VmRRUlJtSFVZLW1ZZUdHazV1c2txRUZnemlOUmJPUjQwZlZhYkxyRTVlQmlfUWFqMzN0dnJ4b21KYmVmbUdRZ2hrMjFqQXJ6V2RDMTJsNzV3X3kwTEstRWNydkhDZEZWTHNFUmZJSjNIQmV1Mmp4U2NiQ0xjM3AtaTNhQWZjOHV3LVRscVlSQkxIYkpIaE5MaEFkb1pTRjlmLUJkdTN4dFo4TVcyV01lbjZUVFZkcjV1VnJnVG9UTjIwaWt4MDlCQUdXc2V4NExvRWF6Znc4YWdydmhqdGFzQmZTVnZ2TzQ4R2Z0T0tSRTRfYllkOUtMRW1sT2JPZ3FkLXo4MldMaWVGaU9udkhLVFRsYXp5TlJLZEdQdjFMMFpUWnR6VkxPc09UeDAxUU44T1JuU25TOU0zME1z?oc=5",
-   "published": "2026-11-22 07:30 UTC",
-   "age_h": 3.6,
-   "score": 88,
-   "why": "70 hair extensions on 3300-year-old Egyptian woman reveals unexpected complexity of ancient grooming and status",
-   "searchable_name": "Egyptian woman 3300-year-old hair extensions"
-  },
-  {
-   "title": "Ghostly 'sand body' double burial unearthed at Sutton Hoo",
+   "title": "Hoxne ‘Empress’ pepper pot: A 1,600-year-old silver and gold pepper shaker that a UK farmer unearthed while looking for his hammer",
    "source": "Live Science",
-   "link": "https://www.livescience.com/archaeology/ghostly-sand-body-double-burial-unearthed-at-sutton-hoo",
-   "published": "2026-11-20 12:00 UTC",
-   "age_h": 47.1,
-   "score": 82,
-   "why": "Mysterious 'sand body' double burial at Sutton Hoo challenges understanding of ancient burial practices",
-   "searchable_name": "Sutton Hoo sand body double burial"
+   "link": "https://www.livescience.com/archaeology/romans/hoxne-empress-pepper-pot-a-1-600-year-old-silver-and-gold-pepper-shaker-that-a-uk-farmer-unearthed-while-looking-for-his-hammer",
+   "published": "2026-11-23 11:00 UTC",
+   "age_h": 1.3,
+   "score": 75,
+   "why": "Ancient Roman object with gold/silver, unexpected luxury, visual appeal, not already covered",
+   "searchable_name": "Hoxne pepper pot"
   }
  ],
  "short": {
-  "title": "Bronze Gear in Han Tomb Challenges Ancient Tech #Shorts",
-  "title_plain": "Bronze Gear in Han Tomb Challenges Ancient Tech",
-  "hook": "A 2,000-year-old bronze gear was found in Emperor Wen's tomb.",
+  "title": "Hoxne Empress Pepper Pot: Hidden Mechanism Found #Shorts",
+  "title_plain": "Hoxne Empress Pepper Pot: Hidden Mechanism Found",
+  "hook": "A silver pepper pot from Hoxne, England, dates to A.D. 350–400.",
   "overlay": [
-   "BRONZE GEAR",
-   "IN HAN TOMBS"
+   "EMPRESS PEPPER POT",
+   "SECRET MECHANISM"
   ],
   "script": [
-   "A 2,000-year-old bronze gear was found in Emperor Wen's tomb.",
-   "It has 36 evenly spaced teeth and a smooth, precisely machined surface.",
-   "Experts believe it resembles a modern gear but its function remains unknown.",
-   "It may have been part of a carriage or mechanical device, but no matching parts were found.",
-   "Wear marks and alloy analysis suggest advanced craftsmanship, not a full mechanical system.",
-   "Some statues show shackles, hinting at forced labor in imperial projects.",
-   "Did ancient China build mechanical systems—or just master precision toolmaking?",
+   "A silver pepper pot from Hoxne, England, dates to A.D. 350–400.",
+   "It features a gold-decorated imperial lady holding a scroll.",
+   "The pot has a disc that can be set to three positions: open, closed, or partly open.",
+   "This allowed Romans to store and sprinkle pepper without spilling.",
+   "Experts think it belonged to a wealthy Romano-British family, possibly during the end of Roman rule in Britain.",
+   "The scroll suggests the woman was educated, not a real empress.",
+   "The figure may not represent a real imperial woman, but could reflect wealth and education.",
+   "Was the Empress a real empress or symbolic figure?",
    "Tap the link below for the full case file."
   ],
-  "description": "A bronze gear with 36 evenly spaced teeth was discovered in the tomb of Emperor Wen of Han at Ba Ling, Shaanxi province. The gear shows high precision in machining, suggesting advanced metalworking skills. However, its function remains undetermined; it may have been used for locking or positioning, not as part of a transmission system. Experts emphasize that the gear does not prove the existence of complex mechanical technology in ancient China. Source: Vietnam.vn, https://www.vietnam.vn/en/bat-ngo-banh-rang-dong-tinh-xao-trong-lang-mo-han-van-de\nFull case file: https://youtu.be/X8newfre5Ds\nImages: Hispalois / CC BY-SA 4.0 / Wikimedia Commons; David Stanley from Nanaimo, Canada / CC BY 2.0 / Wikimedia Commons; bongo vongo / CC BY-SA 2.0 / Wikimedia Commons; Mary Harrsch / CC BY-SA 4.0 / Wikimedia Commons; Claycrave / CC BY-SA 4.0 / Wikimedia Commons; Wu, Daoxing / Public domain / Wikimedia Commons\nSome visuals are AI illustrations.\n#ancientchina #hantdynasty #Shorts",
+  "description": "A 1,600-year-old silver pepper pot from Hoxne, England, features a gold-decorated imperial figure holding a scroll. The pot has a three-position disc for controlled spice dispensing. Experts believe it belonged to a wealthy Romano-British family during the end of Roman rule. The scroll suggests the figure was educated, not a real empress. Researchers do not confirm it depicts a Roman imperial family member. Source: Live Science, https://www.livescience.com/archaeology/romans/hoxne-empress-pepper-pot-a-1-600-year-old-silver-and-gold-pepper-shaker-that-a-uk-farmer-unearthed-while-looking-for-his-hammer\nFull case file: https://youtu.be/MPYdONlD6A4\nImages: Adrian S Pye / CC BY-SA 2.0 / Wikimedia Commons; Ramon FVelasquez / CC BY-SA 3.0 / Wikimedia Commons; Photograph by Mike Peel (www.mikepeel.ne / CC BY-SA 4.0 / Wikimedia Commons; German (?) Netherlandish (?) / Public domain / Wikimedia Commons; Wikimedia Commons / Public domain / Wikimedia Commons; Wikimedia Commons / CC0 / Wikimedia Commons; Shonagon / CC0 / Wikimedia Commons\n#archaeology #ancientromans #shorts #Shorts",
   "tags": [
-   "ancient china",
-   "han dynasty",
-   "bronze gear",
    "archaeology",
-   "ancient technology",
-   "han tomb",
-   "metalworking",
-   "baling",
-   "western han",
-   "tomb discovery"
+   "ancient romans",
+   "hoxne",
+   "uk",
+   "spice container",
+   "roman tableware",
+   "britain",
+   "ancient silver",
+   "pepper pot",
+   "roman coins"
   ],
-  "tags_csv": "ancient china, han dynasty, bronze gear, archaeology, ancient technology, han tomb, metalworking, baling, western han, tomb discovery",
-  "pinned_comment": "Was the gear part of a mechanical device or a locking mechanism? The gear has 36 teeth and shows advanced craftsmanship, but no matching parts were found. Full case file: This 2,000-Year-Old Computer Shouldn't Exist (link above)",
+  "tags_csv": "archaeology, ancient romans, hoxne, uk, spice container, roman tableware, britain, ancient silver, pepper pot, roman coins",
+  "pinned_comment": "Was the Empress a real empress or a symbolic figure? The pot shows a scroll, suggesting education, not imperial status. Full case file: The Bronze Ring Nobody Can Explain (link above)",
   "end_question": "What do you think?",
   "related_video": {
-   "id": "X8newfre5Ds",
-   "title": "This 2,000-Year-Old Computer Shouldn't Exist",
-   "url": "https://youtu.be/X8newfre5Ds"
+   "id": "MPYdONlD6A4",
+   "title": "The Bronze Ring Nobody Can Explain",
+   "url": "https://youtu.be/MPYdONlD6A4"
   },
   "source": {
-   "name": "Vietnam.vn",
-   "url": "https://www.vietnam.vn/en/bat-ngo-banh-rang-dong-tinh-xao-trong-lang-mo-han-van-de",
-   "headline": "Unexpectedly, an exquisite bronze gear was found in the tomb of Emperor Wen of Han.",
-   "published": "2026-11-22 03:50 UTC"
+   "name": "Live Science",
+   "url": "https://www.livescience.com/archaeology/romans/hoxne-empress-pepper-pot-a-1-600-year-old-silver-and-gold-pepper-shaker-that-a-uk-farmer-unearthed-while-looking-for-his-hammer",
+   "headline": "Hoxne ‘Empress’ pepper pot: A 1,600-year-old silver and gold pepper shaker that a UK farmer unearthed while looking for his hammer",
+   "published": "2026-11-23 11:00 UTC"
   },
-  "duration_s": 42.7,
-  "size_mb": 26.6,
+  "duration_s": 46.9,
+  "size_mb": 32.1,
   "voice": "kokoro-narrator",
   "credits": [
    {
-    "credit": "Photo: Hispalois / CC BY-SA 4.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Mold_for_bronze_gear_Han_dynasty.jpg"
+    "credit": "Photo: Adrian S Pye / CC BY-SA 2.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Hoxne_village_sign_-_geograph.org.uk_-_6640446.jpg"
    },
    {
-    "credit": "Photo: David Stanley from Nanaimo, Canada / CC BY 2.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Southern_Burial_Pits_(48823573173).jpg"
+    "credit": "Photo: Ramon FVelasquez / CC BY-SA 3.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:AbbeyofOurLadyofMontserratjf1959_08.JPG"
    },
    {
-    "credit": "Photo: bongo vongo / CC BY-SA 2.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Horse_and_Carriage_(Lucca)_(3890591173).jpg"
+    "credit": "Photo: Photograph by Mike Peel (www.mikepeel.ne / CC BY-SA 4.0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:At_the_British_Museum_2024_208.jpg"
    },
    {
-    "credit": "Photo: Mary Harrsch / CC BY-SA 4.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Scale_corselet_and_helmet_of_the_Western_Han_Dynasty_2nd_century_BCE_MH.jpg"
+    "credit": "Photo: German (?) Netherlandish (?) / Public domain / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:German_-_Spice_Cellar_in_the_Shape_of_a_Ship_-_Walters_542501.jpg"
    },
    {
-    "credit": "Photo: Claycrave / CC BY-SA 4.0 / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Human_Machine_(wheels_off).jpg"
+    "credit": "Photo: Wikimedia Commons / Public domain / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Hoxne_piperatoria_1.jpg"
    },
    {
-    "credit": "Photo: Wu, Daoxing / Public domain / Wikimedia Commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Memorials_to_the_Throne_of_Our_Glorious_Dynasty_WDL4660.jpg"
+    "credit": "Photo: Wikimedia Commons / CC0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:British_Museum_Hoxne_Hoard_Pepper_Pots.JPG"
+   },
+   {
+    "credit": "Photo: Shonagon / CC0 / Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Tr%C3%A9sor_de_Boscoreale_%E2%80%93_Mus%C3%A9e_du_Louvre_%E2%80%93_Q178624_%E2%80%93_a.jpg"
    }
   ],
   "visuals": [
-   "ai",
+   "photo",
+   "photo",
    "photo",
    "photo",
    "photo",
@@ -120,14 +106,24 @@
    "photo",
    "photo"
   ],
-  "fact_check": [],
-  "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261122-r27/AncientMachines-Short-20261122.mp4",
-  "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261122-r27",
+  "fact_check": [
+   "A 1,600-year-old silver pepper pot was found in Hoxne, England. (The article says the pot was made A.D. 350–400, which is about 1,650 years ago, not 1,600. While close, the narration implies exact dating and a specific age that isn't fully supported — the article doesn't state it was 1,600 years old. More importantly, the phrase '1,600-year-old' is a precise number not directly supported by the text.)",
+   "Experts think it belonged to a wealthy Romano-British family ending Roman rule. (The article says the hoard may have been buried in the early fifth century, when Roman rule was ending. But the narration says 'experts think it belonged to a family ending Roman rule' — this implies the family existed *at the end* of Roman rule, which is not directly stated. The article says the family likely used the pot, not that they were part of the end of Roman rule.)",
+   "Was the Empress a symbol of wealth or a fictional figure? (The article does not claim or suggest that the figure is symbolic or fictional in a philosophical or interpretive sense. It says researchers don’t think it features a real imperial family member, but does not say it's a 'fictional figure' or 'symbol of wealth' — this is speculative and unsupported.)"
+  ],
+  "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261123-r28/AncientMachines-Short-20261123.mp4",
+  "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261123-r28",
   "poster": "poster.jpg",
-  "file": "AncientMachines-Short-20261122.mp4",
+  "file": "AncientMachines-Short-20261123.mp4",
   "model": "Qwen3-4B-Instruct-2507 (local llama.cpp)"
  },
  "archive": [
+  {
+   "date": "2026-11-23",
+   "title": "Hoxne Empress Pepper Pot: Hidden Mechanism Found #Shorts",
+   "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261123-r28",
+   "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261123-r28/AncientMachines-Short-20261123.mp4"
+  },
   {
    "date": "2026-11-22",
    "title": "Bronze Gear in Han Tomb Challenges Ancient Tech #Shorts",
@@ -205,12 +201,6 @@
    "title": "Cockerel Vase: 2,600-Year-Old Etruscan Alphabet #Shorts",
    "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261110-r15",
    "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261110-r15/AncientMachines-Short-20261110.mp4"
-  },
-  {
-   "date": "2026-11-09",
-   "title": "Crocodiles in Buto's Buried Tomb #Shorts",
-   "release_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/tag/short-20261109-r14",
-   "video_url": "https://github.com/Ghasemiarash813/am-short-factory/releases/download/short-20261109-r14/AncientMachines-Short-20261109.mp4"
   }
  ],
  "llm_calls": 4,
